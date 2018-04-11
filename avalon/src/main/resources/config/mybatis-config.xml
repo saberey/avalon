@@ -1,0 +1,85 @@
+<?xml version="1.0" encoding="UTF-8" ?>
+<!DOCTYPE configuration
+  PUBLIC "-//mybatis.org//DTD Config 3.0//EN"
+  "http://mybatis.org/dtd/mybatis-3-config.dtd">
+<configuration>
+   <!-- 引入配置文件，下文中可以引用该文件内容 -->
+   <properties resource="config/mybatis-datasource.properties"/>
+	
+   <settings>
+  	<setting name="mapUnderscoreToCamelCase" value="true"/>
+  	<setting name="logImpl" value="LOG4J"/>
+  	<setting name="lazyLoadingEnabled" value="true"/>
+  	<setting name="aggressiveLazyLoading" value="false"/>
+  	
+  	<setting name="defaultExecutorType" value="BATCH"/>
+  </settings>
+	
+  <!-- 别名映射  mapper中不需要写全称了 -->
+  <typeAliases>
+  	<typeAlias type="com.avalon.ms.dao.entity.City" alias="City"/>
+  	<typeAlias type="com.avalon.ms.dao.entity.Province" alias="Province"/> 
+  	<typeAlias type="com.avalon.ms.dao.entity.MsOperator" alias="MsOperator"/> 
+  	<typeAlias type="com.avalon.ms.dao.entity.MsMenu" alias="MsMenu"/> 
+  	<!-- 配置包路径，需要在对应的PODO类增加注解@Alias -->
+  	<!-- 如不定义注解，也可扫描到，默认是对应的类名首字母小写 -->
+  	<package name="com.avalon.ms.dao.entity"/>
+  </typeAliases>
+  
+  <!-- 全局的typeHandler配置 -->
+
+  
+  <!-- 可以配置多个数据库连接，使用哪个配置取决于default配置 -->
+  <environments default="produce">
+    <environment id="development">
+    <!-- transactionManager 可选如下-->
+    <!-- JDBC:独立编码中常常用到 --> 
+    <!-- MANAGED采用容器方式管理JNDI数据源中常用-->
+    <!-- 自定义数据库事务管理办法 -->
+      <transactionManager type="JDBC"/>
+      <!-- dataSource可选  -->
+      <!-- UNPOOLED非数据库连接池 -->
+      <!-- POOLED数据库连接池 -->
+      <!-- JNDI数据源 -->
+      <!-- 自定义数据源，需实现DataSourceFactory接口 -->   
+     <!--  <dataSource type="com.avalon.ms.dao.mybatis.dataSource.DbcpDataSourceFactory"/> -->
+      <dataSource type="POOLED">
+        <property name="driver" value="com.mysql.cj.jdbc.Driver"/>
+        <property name="url" value="jdbc:mysql://127.0.0.1:3306/tiger?serverTimezone=UTC" />
+        <property name="username" value="root"/>
+        <property name="password" value="tiger86"/>
+      </dataSource>
+    </environment>
+    <environment id="produce">
+    	<transactionManager type="JDBC"/>
+    	<dataSource type="POOLED">
+    	<property name="driver" value="${driver}"/>
+        <property name="url" value="${url}" />
+        <property name="username" value="${username}"/>
+        <property name="password" value="${password}"/>
+    	</dataSource>
+    </environment>
+  </environments>
+  
+    <!-- 映射mapper文件 -->
+  <mappers>
+  	 <!-- 映射xml文件 -->
+     <mapper resource="xml/CityMapper.xml"/>  
+     <mapper resource="xml/ProvinceMapper.xml"/>  
+     <mapper resource="xml/MsOperatorMapper.xml"/>  
+     <mapper resource="xml/MsMenuMapper.xml"/>  
+     <mapper resource="xml/CommonSqlMapper.xml"/>
+     <mapper resource="xml/StudentMapper.xml"/>
+     <mapper resource="xml/CoursegradeMapper.xml"/>
+     <mapper resource="xml/CourseMapper.xml"/>
+     <mapper resource="xml/TFileMapper.xml"/>
+     <mapper resource="xml/BhifPayIbankParaInfoMapper.xml"/>
+     <mapper resource="xml/KyBranchBankInfosMapper.xml"/>
+     <!-- 通过引入包路径的方式xml文件需放置在定义好的包路径下 -->
+    <!-- <package name="xxx.xxx.xxx.xxx"/>  -->
+    <!-- 映射接口，没有使用xml配置，通过接口注解的方式 -->
+    <mapper class="com.avalon.ms.dao.mybatis.mapper.StudentMapper2"/>
+  </mappers>
+  
+ 
+</configuration>

@@ -1,0 +1,79 @@
+<?xml version="1.0" encoding="UTF-8" ?>
+<!DOCTYPE mapper
+  PUBLIC "-//mybatis.org//DTD Mapper 3.0//EN"
+  "http://mybatis.org/dtd/mybatis-3-mapper.dtd">
+<mapper namespace="com.avalon.ms.dao.mybatis.mapper.CityMapper" >
+
+	<resultMap type="City" id="cityMap">
+		<result column="id" property="id" javaType="int" jdbcType="INTEGER" />
+		<result column="city" property="city" jdbcType="VARCHAR"/>
+	    <result column="code" property="code2" typeHandler="com.avalon.ms.dao.mybatis.typeHandler.CityHandler"/>
+		<result column="province" property="province"/>
+		<!-- <association property="cityProvince" column="code" select="com.avalon.ms.dao.mybatis.mapper.ProvinceMapper.selectByCode"></association>-->
+	</resultMap>
+	
+	<!-- 通过sql 定义字段，通过include refid 的方式引用，可以有效避免重复代码的书写 -->
+	<sql id="columns">
+		id,city,code,province
+	</sql>
+	
+  <!-- <select id="selectId" parameterType="int" resultType="City"> -->
+   <select id="selectId" parameterType="int" resultMap="cityMap">
+    select <include refid="columns"/> from city 
+    <where>
+    	<if test="_parameter != 0">
+    		 id = #{id}
+    	</if>
+    </where> 
+  </select>
+  
+  <!-- 级联查询 -->  
+  <select id="selectByCode" parameterType="string" resultType="City">
+    select * from city 
+    <where>
+    	<if test="_parameter != 0">
+    		 code = #{code}
+    	</if>
+    </where> 
+  </select>
+  <insert id="insertRow" parameterType="City">
+  	insert into city(id,city,code,province) values (#{id},#{city},#{code},#{province})
+  </insert>
+  
+  <!-- 使用selectKey 来自定义主键id的生成规则 -->
+  <insert id="insertSelect" parameterType="City" useGeneratedKeys="true" keyProperty="id">
+  	<selectKey keyProperty="id" resultType="int" order="BEFORE">
+  		select if(max(id) is null,1,max(id)+2) as newId from city
+  	</selectKey>
+  	insert into city(id,city,code,province) values (#{id},#{city},#{code,typeHandler=com.avalon.ms.dao.mybatis.typeHandler.CityTypeHandler},#{province})
+  </insert>
+  
+  
+  <select id="selectByIdList" parameterType="java.util.ArrayList"  resultType="City">
+  	select * from city 
+  	<where>
+  		city.id in (
+  		<foreach collection="list" item="cur" index="index" separator=",">#{cur}</foreach>
+  		)
+  	</where>
+  </select>
+  
+  <select id="selectByAll" resultMap="cityMap">
+  	select * from city
+  	<where>
+  		 1=1
+    	<if test="id != null and id !=''">
+    		 and id = #{id}
+    	</if>
+    	<if test="code != null ">
+    		 and code = #{code}
+    	</if>
+    	<if test="city != null">
+    		and city = #{city}
+    	</if>
+    	<if test="province != null">
+    		and province = #{province}
+    	</if>
+    </where> 
+  </select>
+</mapper>
