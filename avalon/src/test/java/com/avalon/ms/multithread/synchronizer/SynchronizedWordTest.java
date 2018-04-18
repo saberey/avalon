@@ -74,7 +74,7 @@ public class SynchronizedWordTest {
 	
 	public static void main(String[] args) throws InterruptedException {
 		
-		SynchronizedWordTest swt = new SynchronizedWordTest(1, "1c");
+		final SynchronizedWordTest swt = new SynchronizedWordTest(1, "1c");
 		Thread t1 = new Thread(new Runnable() {
 			public void run() {
 				swt.test();

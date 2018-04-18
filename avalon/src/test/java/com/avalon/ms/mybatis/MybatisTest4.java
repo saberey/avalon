@@ -27,7 +27,7 @@ public class MybatisTest4 {
 		
 		ApplicationContext ac = new ClassPathXmlApplicationContext("config/datasource.xml");
 		
-		StudentService service = (StudentService) ac.getBean(StudentService.class);
+		final StudentService service = (StudentService) ac.getBean(StudentService.class);
 		StudentService service2 = (StudentService) ac.getBean(StudentService.class);
 		
 		Thread thread1 = new Thread(new  Runnable() {

@@ -27,7 +27,7 @@ public class SimpleEmailSender extends BaseEmailSender {
 	
 	
 	@Override
-	public void sendEmail(MailContact mailContact, MailInfo mailInfo,
+	public void sendEmail(final MailContact mailContact, MailInfo mailInfo,
 			Properties prop) {
 		// TODO Auto-generated method stub
 		Authenticator  authenticator  = null;

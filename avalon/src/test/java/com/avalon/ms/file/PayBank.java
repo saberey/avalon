@@ -22,9 +22,9 @@ import com.avalon.ms.common.util.JedisUtil;
 import com.avalon.ms.common.util.StringUtils;
 import com.avalon.ms.contants.SymBolConstants;
 import com.avalon.ms.dao.entity.BhifPayIbankParaInfo;
-import com.avalon.ms.dao.entity.KyBranchBankInfos;
+import com.avalon.ms.dao.entity.KyBranchbankinfos;
 import com.avalon.ms.dao.mybatis.mapper.BhifPayIbankParaInfoMapper;
-import com.avalon.ms.dao.mybatis.mapper.KyBranchBankInfosMapper;
+import com.avalon.ms.dao.mybatis.mapper.KyBranchbankinfosMapper;
 
 /**
  *@description:TODO
@@ -80,8 +80,8 @@ public class PayBank {
 		SqlSessionFactory sqlSessionFactory = (SqlSessionFactory) context.getBean("sqlSessionFactory");
 		SqlSession sqlsession2 = sqlSessionFactory.openSession();
 		try {
-			if(bankEntity.equals(KyBranchBankInfosMapper.class)){
-				KyBranchBankInfosMapper kyBranchBankInfosMapper = (KyBranchBankInfosMapper) sqlsession2.getMapper(bankEntity);
+			if(bankEntity.equals(KyBranchbankinfosMapper.class)){
+				KyBranchbankinfosMapper kyBranchBankInfosMapper = (KyBranchbankinfosMapper) sqlsession2.getMapper(bankEntity);
 				bankInfoList = kyBranchBankInfosMapper.selectAll();
 			}else if(bankEntity.equals(BhifPayIbankParaInfoMapper.class)){
 				BhifPayIbankParaInfoMapper bhifPayIbankParaInfoMapper = (BhifPayIbankParaInfoMapper) sqlsession2.getMapper(bankEntity);
@@ -112,10 +112,10 @@ public class PayBank {
 	}
 	
 	
-	public void storeBankInfofromOracle(List<KyBranchBankInfos> bankInfoList){
+	public void storeBankInfofromOracle(List<KyBranchbankinfos> bankInfoList){
 		Jedis jedis = JedisUtil.getJedis(REDIS_INDEX);
 		jedis.del(BANKINFO_ORACLE);
-		for(KyBranchBankInfos cur: bankInfoList){
+		for(KyBranchbankinfos cur: bankInfoList){
 			jedis.sadd(BANKINFO_ORACLE, (cur.getCode()+"|"+cur.getName()));
 		}
 		System.out.println("set add end");
