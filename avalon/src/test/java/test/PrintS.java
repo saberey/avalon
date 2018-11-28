@@ -5,7 +5,6 @@ import java.lang.annotation.Retention;
 import java.lang.annotation.RetentionPolicy;
 import java.lang.annotation.Target;
 
-import com.sun.tools.internal.xjc.reader.gbind.Element;
 
 /**
  *@description:TODO

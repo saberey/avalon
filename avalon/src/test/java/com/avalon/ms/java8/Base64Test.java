@@ -3,7 +3,6 @@ package com.avalon.ms.java8;
 import java.nio.charset.StandardCharsets;
 import java.util.Base64;
 
-import com.sun.tools.doclets.formats.html.resources.standard;
 
 
 /**
