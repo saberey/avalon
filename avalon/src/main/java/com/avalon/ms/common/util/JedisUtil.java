@@ -57,7 +57,9 @@ public class JedisUtil {
 	  */
 	 public static Jedis getJedis(int index) {
     	 Jedis jedis = jedisPool.getResource();
-    	 if(index>0) jedis.select(index);
+    	 if(index>0){
+    	 	jedis.select(index);
+		 }
     	 return jedis;
      }
 	 
@@ -68,9 +70,8 @@ public class JedisUtil {
 	 @SuppressWarnings("deprecation")
 	 public static void broken(Jedis jedis){
 		 if(null!=jedis && null!=jedisPool){
-			 jedisPool.returnBrokenResource(jedis);
+			 //jedisPool.returnBrokenResource(jedis);
 		 }
-		
 	 }
 	 
 	 public static void clear(int index){

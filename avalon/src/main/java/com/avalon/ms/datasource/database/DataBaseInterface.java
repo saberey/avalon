@@ -17,7 +17,6 @@ public interface DataBaseInterface {
 	
 	/**
 	 * @param sql
-	 * @param clazz
 	 * @return
 	 */
 	public  List<Map> query(String sql,List<Object> param) throws SQLException, InstantiationException, IllegalAccessException, IllegalArgumentException, InvocationTargetException, IntrospectionException;

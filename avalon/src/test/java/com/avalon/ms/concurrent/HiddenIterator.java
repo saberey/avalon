@@ -32,7 +32,7 @@ public class HiddenIterator {
 		
 	}
 	
-	public static void main(String[] args) {
+	public static void main(String[] args) throws InterruptedException {
 		HiddenIterator hi = new HiddenIterator();
 		//输出set 调用toString()方法时会隐式的迭代集合，如果这是更改集合元素会抛出并发修改的错误
 		//先往集合中添加元素（为了测试，添加足量元素，这样集合在迭代的时候会花费稍微长点时间，方便错误重现）
@@ -54,5 +54,6 @@ public class HiddenIterator {
 				}
 			}
 		}).start();
+		Thread.sleep(30000);
 	}
 }

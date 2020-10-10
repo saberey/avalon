@@ -1,0 +1,80 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<web-app version="2.5" xmlns="http://java.sun.com/xml/ns/javaee"
+ xmlns:xsi="http://www.w3.org/2001/XMLSchema-instance"
+ xsi:schemaLocation="http://java.sun.com/xml/ns/javaee 
+ http://java.sun.com/xml/ns/javaee/web-app_2_5.xsd">
+
+  <display-name>Archetype Created Web Application</display-name>
+  <mime-mapping>
+  <extension>ico</extension>
+  <mime-type>image/x-icon</mime-type>
+  </mime-mapping>
+  
+<!--   <servlet-mapping>
+  <servlet-name>default</servlet-name>
+  <url-pattern>*.css</url-pattern>
+  <url-pattern>*.js</url-pattern>
+  <url-pattern>*.gif</url-pattern>
+  <url-pattern>*.jpg</url-pattern>
+  <url-pattern>*.png</url-pattern>
+  <url-pattern>*.xml</url-pattern>
+  <url-pattern>*.htm</url-pattern>
+  <url-pattern>*.html</url-pattern>
+  <url-pattern>*.ico</url-pattern>
+ </servlet-mapping> -->
+  
+  <!-- 加载web-inf下其他application配置 -->
+  <context-param>
+		<param-name>contextConfigLocation</param-name>
+		<param-value>classpath:/config/datasource.xml</param-value>
+  </context-param>
+  
+ <!-- loj4j的配置文件路径 和log4j的监听器-->
+ <context-param>
+  <param-name>log4jConfigLocation</param-name>
+  <param-value>classpath:/config/log4j.properties</param-value>
+ </context-param>
+ <listener>
+  <listener-class>org.springframework.web.util.Log4jConfigListener</listener-class>
+ </listener>
+ <!-- druid 监控页面配置 ,要使用监控功能需要在 druid连接池配置时 配置  filters 参数  value= stat -->
+  <servlet>
+  	<servlet-name>DruidStatView</servlet-name>
+  	<servlet-class>com.alibaba.druid.support.http.StatViewServlet</servlet-class>
+  	<!-- 是否允许清空统计数据，不写时默认true -->
+  	<init-param>
+  		<param-name>resetEnable</param-name>
+  		<param-value>true</param-value>
+  	</init-param>
+  	<!-- 用户密码可以不写，不写时不需要输入 -->
+  	<init-param>
+  		<param-name>loginUsername</param-name>
+  		<param-value>druid</param-value>
+  	</init-param>
+  	<init-param>
+  		<param-name>loginPassword</param-name>
+  		<param-value>123456</param-value>
+  	</init-param>
+  </servlet>
+  <servlet-mapping>11
+  	<servlet-name>DruidStatView</servlet-name>
+  	<url-pattern>/druid/*</url-pattern>
+  </servlet-mapping>
+ <!-- spring mvc -->  
+  <servlet>
+  	<servlet-name>spring-mvc-dispatcher</servlet-name>
+  	<servlet-class>org.springframework.web.servlet.DispatcherServlet</servlet-class>
+  	<init-param>
+  		<param-name>contextConfigLocation</param-name>
+  		<param-value>classpath:/config/spring-mvc-dispatcher-servlet.xml</param-value>
+  	</init-param>
+  	<load-on-startup>1</load-on-startup>
+  </servlet>
+  <servlet-mapping>
+  	<servlet-name>spring-mvc-dispatcher</servlet-name>
+ 	<url-pattern>/</url-pattern>
+  </servlet-mapping>
+  <welcome-file-list>
+  	<welcome-file>index.jsp</welcome-file>
+  </welcome-file-list>
+</web-app>

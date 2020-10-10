@@ -12,38 +12,38 @@ import com.avalon.ms.common.table.People;
 
 /**
  * create table by annotation
+ *
+ * @version 1.0
  * @description:TODO
  * @author: saber
  * @time: 2017年7月25日 下午5:27:35
- * @version 1.0
  */
 public class TableUtil {
-	
-	
-	
-	public <T> String getTableName(Class<T> c){
-		String tableName="";
-		if(c.isAnnotationPresent(Table.class)){
-			tableName = c.getAnnotation(Table.class).tableName();
-		}
-		return tableName;
-	}
-	
-	
-	public <T> ArrayList<Field> getColumnList(Class<T> c){
-		
-		ArrayList<Field> al = new ArrayList<Field>();
-		Field[] fields = c.getDeclaredFields();
-		for(Field f : fields){
-			Column column = f.getAnnotation(Column.class);
-			if(column!=null){
-				al.add(f);
-			}
-		}
-		return al;
-	}
-	
-	/**
+
+
+    public <T> String getTableName(Class<T> c) {
+        String tableName = "";
+        if (c.isAnnotationPresent(Table.class)) {
+            tableName = c.getAnnotation(Table.class).tableName();
+        }
+        return tableName;
+    }
+
+
+    public <T> ArrayList<Field> getColumnList(Class<T> c) {
+
+        ArrayList<Field> al = new ArrayList<Field>();
+        Field[] fields = c.getDeclaredFields();
+        for (Field f : fields) {
+            Column column = f.getAnnotation(Column.class);
+            if (column != null) {
+                al.add(f);
+            }
+        }
+        return al;
+    }
+
+    /**
      * 开始创建建表语句
      */
     protected <T> String createSql(Class<T> c) {
@@ -83,15 +83,15 @@ public class TableUtil {
                     } else {
                         name = nameC;
                     }
-                    
+
                     //else {
-                        //type = Types.getType(typeC, isBig);
-                   // }
+                    //type = Types.getType(typeC, isBig);
+                    // }
                     // 没有设置长度 则获取默认的长度
-                    if (Clength.length() <=0) {
+                    if (Clength.length() <= 0) {
                         Clength = String.valueOf(typeC.getValue());
                     }
-                 
+
                     // 生成字段类型和长度sql语句
                     type = getTypeSql(typeC.getName(), Clength);
                     // 拼接成sql语句格式 加入集合
@@ -111,32 +111,33 @@ public class TableUtil {
             e.printStackTrace();
         }
         return "";
-    	}
-    public String getTypeSql(String type,String length){
-    	return type+"("+length+")";
     }
-    	
-    
-     public <T> String getIdSql(Class<T> c){
-    	 String idSql="";
-    	 Field[] fields = c.getDeclaredFields();
-    	 for(Field field:fields){
-    		Id id =  field.getAnnotation(Id.class);
-    		if(id!=null){
-    			boolean isIncrement = id.increment();
-    			String name = id.idName();
-    			if(isIncrement){
-    				idSql = name+" int primary key auto_increment,";
-    			}else{
-    				idSql = name+" int ,";
-    			}
-    		}
-    	 }
-    	 return idSql;
-     }
-     
-     public static void main(String[] args) {
-		TableUtil tableUtil = new TableUtil();
-		System.out.println(tableUtil.createSql(People.class));
-	}
+
+    public String getTypeSql(String type, String length) {
+        return type + "(" + length + ")";
+    }
+
+
+    public <T> String getIdSql(Class<T> c) {
+        String idSql = "";
+        Field[] fields = c.getDeclaredFields();
+        for (Field field : fields) {
+            Id id = field.getAnnotation(Id.class);
+            if (id != null) {
+                boolean isIncrement = id.increment();
+                String name = id.idName();
+                if (isIncrement) {
+                    idSql = name + " int primary key auto_increment,";
+                } else {
+                    idSql = name + " int ,";
+                }
+            }
+        }
+        return idSql;
+    }
+
+    public static void main(String[] args) {
+        TableUtil tableUtil = new TableUtil();
+        System.out.println(tableUtil.createSql(People.class));
+    }
 }

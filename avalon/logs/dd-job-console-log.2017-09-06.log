@@ -1,20 +1,20 @@
 [INFO ] 2017-09-06 16:43:22,565 --pool-1-thread-1-- [com.avalon.ms.schedule.task.service.PrintService] print task start! 
-[INFO ] 2017-09-06 16:43:23,119 --pool-2-thread-1-- [com.avalon.ms.common.util.HttpClientUtil] http post request :POST http://localhost:8080/ms/city/code HTTP/1.1 
-[INFO ] 2017-09-06 16:43:28,388 --pool-2-thread-1-- [com.avalon.ms.common.util.HttpClientUtil] httpclient close! 
+[INFO ] 2017-09-06 16:43:23,119 --pool-2-thread-1-- [com.avalon.ms.HttpClientUtil] http post request :POST http://localhost:8080/ms/city/code HTTP/1.1
+[INFO ] 2017-09-06 16:43:28,388 --pool-2-thread-1-- [com.avalon.ms.HttpClientUtil] httpclient close!
 [INFO ] 2017-09-06 16:43:28,389 --pool-2-thread-1-- [com.avalon.ms.schedule.task.service.PrintService] http response 200 
 [INFO ] 2017-09-06 16:43:28,403 --pool-2-thread-1-- [com.avalon.ms.schedule.task.service.PrintService] http response content {city:0} 
 [INFO ] 2017-09-06 16:47:11,722 --pool-1-thread-1-- [com.avalon.ms.schedule.task.service.PrintService] print task start! size 3 
-[INFO ] 2017-09-06 16:47:11,951 --pool-2-thread-1-- [com.avalon.ms.common.util.HttpClientUtil] http post request :POST http://localhost:8080/ms/city/code HTTP/1.1 
-[INFO ] 2017-09-06 16:47:17,015 --pool-2-thread-1-- [com.avalon.ms.common.util.HttpClientUtil] httpclient close! 
+[INFO ] 2017-09-06 16:47:11,951 --pool-2-thread-1-- [com.avalon.ms.HttpClientUtil] http post request :POST http://localhost:8080/ms/city/code HTTP/1.1
+[INFO ] 2017-09-06 16:47:17,015 --pool-2-thread-1-- [com.avalon.ms.HttpClientUtil] httpclient close!
 [INFO ] 2017-09-06 16:47:17,016 --pool-2-thread-1-- [com.avalon.ms.schedule.task.service.PrintService] http response 200 
 [INFO ] 2017-09-06 16:47:17,016 --pool-2-thread-1-- [com.avalon.ms.schedule.task.service.PrintService] http response content {city:0} 
 [INFO ] 2017-09-06 16:48:07,195 --pool-1-thread-1-- [com.avalon.ms.schedule.task.service.PrintService] print task start! size 3 
-[INFO ] 2017-09-06 16:48:07,436 --pool-2-thread-2-- [com.avalon.ms.common.util.HttpClientUtil] http post request :POST http://localhost:8080/ms/city/code HTTP/1.1 
-[INFO ] 2017-09-06 16:48:07,436 --pool-2-thread-1-- [com.avalon.ms.common.util.HttpClientUtil] http post request :POST http://localhost:8080/ms/city/code HTTP/1.1 
-[INFO ] 2017-09-06 16:48:07,436 --pool-2-thread-3-- [com.avalon.ms.common.util.HttpClientUtil] http post request :POST http://localhost:8080/ms/city/code HTTP/1.1 
-[INFO ] 2017-09-06 16:48:12,506 --pool-2-thread-2-- [com.avalon.ms.common.util.HttpClientUtil] httpclient close! 
-[INFO ] 2017-09-06 16:48:12,506 --pool-2-thread-1-- [com.avalon.ms.common.util.HttpClientUtil] httpclient close! 
-[INFO ] 2017-09-06 16:48:12,506 --pool-2-thread-3-- [com.avalon.ms.common.util.HttpClientUtil] httpclient close! 
+[INFO ] 2017-09-06 16:48:07,436 --pool-2-thread-2-- [com.avalon.ms.HttpClientUtil] http post request :POST http://localhost:8080/ms/city/code HTTP/1.1
+[INFO ] 2017-09-06 16:48:07,436 --pool-2-thread-1-- [com.avalon.ms.HttpClientUtil] http post request :POST http://localhost:8080/ms/city/code HTTP/1.1
+[INFO ] 2017-09-06 16:48:07,436 --pool-2-thread-3-- [com.avalon.ms.HttpClientUtil] http post request :POST http://localhost:8080/ms/city/code HTTP/1.1
+[INFO ] 2017-09-06 16:48:12,506 --pool-2-thread-2-- [com.avalon.ms.HttpClientUtil] httpclient close!
+[INFO ] 2017-09-06 16:48:12,506 --pool-2-thread-1-- [com.avalon.ms.HttpClientUtil] httpclient close!
+[INFO ] 2017-09-06 16:48:12,506 --pool-2-thread-3-- [com.avalon.ms.HttpClientUtil] httpclient close!
 [INFO ] 2017-09-06 16:48:12,506 --pool-2-thread-2-- [com.avalon.ms.schedule.task.service.PrintService] http response 200 
 [INFO ] 2017-09-06 16:48:12,506 --pool-2-thread-1-- [com.avalon.ms.schedule.task.service.PrintService] http response 200 
 [INFO ] 2017-09-06 16:48:12,506 --pool-2-thread-3-- [com.avalon.ms.schedule.task.service.PrintService] http response 200 
@@ -23,14 +23,14 @@
 [INFO ] 2017-09-06 16:48:12,506 --pool-2-thread-3-- [com.avalon.ms.schedule.task.service.PrintService] http response content {city:2} 
 [INFO ] 2017-09-06 16:48:12,507 --pool-1-thread-1-- [com.avalon.ms.schedule.task.service.PrintService] print task end! 
 [INFO ] 2017-09-06 16:48:41,746 --pool-1-thread-1-- [com.avalon.ms.schedule.task.service.PrintService] print task start! size 5 
-[INFO ] 2017-09-06 16:48:41,976 --pool-2-thread-2-- [com.avalon.ms.common.util.HttpClientUtil] http post request :POST http://localhost:8080/ms/city/code HTTP/1.1 
-[INFO ] 2017-09-06 16:48:41,976 --pool-2-thread-4-- [com.avalon.ms.common.util.HttpClientUtil] http post request :POST http://localhost:8080/ms/city/code HTTP/1.1 
-[INFO ] 2017-09-06 16:48:41,976 --pool-2-thread-1-- [com.avalon.ms.common.util.HttpClientUtil] http post request :POST http://localhost:8080/ms/city/code HTTP/1.1 
-[INFO ] 2017-09-06 16:48:41,976 --pool-2-thread-3-- [com.avalon.ms.common.util.HttpClientUtil] http post request :POST http://localhost:8080/ms/city/code HTTP/1.1 
-[INFO ] 2017-09-06 16:48:47,045 --pool-2-thread-4-- [com.avalon.ms.common.util.HttpClientUtil] httpclient close! 
-[INFO ] 2017-09-06 16:48:47,046 --pool-2-thread-2-- [com.avalon.ms.common.util.HttpClientUtil] httpclient close! 
-[INFO ] 2017-09-06 16:48:47,046 --pool-2-thread-1-- [com.avalon.ms.common.util.HttpClientUtil] httpclient close! 
-[INFO ] 2017-09-06 16:48:47,046 --pool-2-thread-3-- [com.avalon.ms.common.util.HttpClientUtil] httpclient close! 
+[INFO ] 2017-09-06 16:48:41,976 --pool-2-thread-2-- [com.avalon.ms.HttpClientUtil] http post request :POST http://localhost:8080/ms/city/code HTTP/1.1
+[INFO ] 2017-09-06 16:48:41,976 --pool-2-thread-4-- [com.avalon.ms.HttpClientUtil] http post request :POST http://localhost:8080/ms/city/code HTTP/1.1
+[INFO ] 2017-09-06 16:48:41,976 --pool-2-thread-1-- [com.avalon.ms.HttpClientUtil] http post request :POST http://localhost:8080/ms/city/code HTTP/1.1
+[INFO ] 2017-09-06 16:48:41,976 --pool-2-thread-3-- [com.avalon.ms.HttpClientUtil] http post request :POST http://localhost:8080/ms/city/code HTTP/1.1
+[INFO ] 2017-09-06 16:48:47,045 --pool-2-thread-4-- [com.avalon.ms.HttpClientUtil] httpclient close!
+[INFO ] 2017-09-06 16:48:47,046 --pool-2-thread-2-- [com.avalon.ms.HttpClientUtil] httpclient close!
+[INFO ] 2017-09-06 16:48:47,046 --pool-2-thread-1-- [com.avalon.ms.HttpClientUtil] httpclient close!
+[INFO ] 2017-09-06 16:48:47,046 --pool-2-thread-3-- [com.avalon.ms.HttpClientUtil] httpclient close!
 [INFO ] 2017-09-06 16:48:47,046 --pool-2-thread-4-- [com.avalon.ms.schedule.task.service.PrintService] http response 200 
 [INFO ] 2017-09-06 16:48:47,046 --pool-2-thread-2-- [com.avalon.ms.schedule.task.service.PrintService] http response 200 
 [INFO ] 2017-09-06 16:48:47,046 --pool-2-thread-1-- [com.avalon.ms.schedule.task.service.PrintService] http response 200 
@@ -39,402 +39,402 @@
 [INFO ] 2017-09-06 16:48:47,047 --pool-2-thread-4-- [com.avalon.ms.schedule.task.service.PrintService] http response content {city:2} 
 [INFO ] 2017-09-06 16:48:47,047 --pool-2-thread-1-- [com.avalon.ms.schedule.task.service.PrintService] http response content {city:0} 
 [INFO ] 2017-09-06 16:48:47,047 --pool-2-thread-3-- [com.avalon.ms.schedule.task.service.PrintService] http response content {city:3} 
-[INFO ] 2017-09-06 16:48:47,060 --pool-2-thread-2-- [com.avalon.ms.common.util.HttpClientUtil] http post request :POST http://localhost:8080/ms/city/code HTTP/1.1 
-[INFO ] 2017-09-06 16:48:52,067 --pool-2-thread-2-- [com.avalon.ms.common.util.HttpClientUtil] httpclient close! 
+[INFO ] 2017-09-06 16:48:47,060 --pool-2-thread-2-- [com.avalon.ms.HttpClientUtil] http post request :POST http://localhost:8080/ms/city/code HTTP/1.1
+[INFO ] 2017-09-06 16:48:52,067 --pool-2-thread-2-- [com.avalon.ms.HttpClientUtil] httpclient close!
 [INFO ] 2017-09-06 16:48:52,067 --pool-2-thread-2-- [com.avalon.ms.schedule.task.service.PrintService] http response 200 
 [INFO ] 2017-09-06 16:48:52,068 --pool-2-thread-2-- [com.avalon.ms.schedule.task.service.PrintService] http response content {city:4} 
 [INFO ] 2017-09-06 16:48:52,069 --pool-1-thread-1-- [com.avalon.ms.schedule.task.service.PrintService] print task end! 
 [INFO ] 2017-09-06 16:49:52,070 --pool-1-thread-1-- [com.avalon.ms.schedule.task.service.PrintService] print task start! size 5 
-[INFO ] 2017-09-06 16:49:52,094 --pool-3-thread-2-- [com.avalon.ms.common.util.HttpClientUtil] http post request :POST http://localhost:8080/ms/city/code HTTP/1.1 
-[INFO ] 2017-09-06 16:49:52,097 --pool-3-thread-4-- [com.avalon.ms.common.util.HttpClientUtil] http post request :POST http://localhost:8080/ms/city/code HTTP/1.1 
-[INFO ] 2017-09-06 16:49:52,103 --pool-3-thread-3-- [com.avalon.ms.common.util.HttpClientUtil] http post request :POST http://localhost:8080/ms/city/code HTTP/1.1 
-[INFO ] 2017-09-06 16:49:52,107 --pool-3-thread-1-- [com.avalon.ms.common.util.HttpClientUtil] http post request :POST http://localhost:8080/ms/city/code HTTP/1.1 
-[INFO ] 2017-09-06 16:49:57,104 --pool-3-thread-2-- [com.avalon.ms.common.util.HttpClientUtil] httpclient close! 
+[INFO ] 2017-09-06 16:49:52,094 --pool-3-thread-2-- [com.avalon.ms.HttpClientUtil] http post request :POST http://localhost:8080/ms/city/code HTTP/1.1
+[INFO ] 2017-09-06 16:49:52,097 --pool-3-thread-4-- [com.avalon.ms.HttpClientUtil] http post request :POST http://localhost:8080/ms/city/code HTTP/1.1
+[INFO ] 2017-09-06 16:49:52,103 --pool-3-thread-3-- [com.avalon.ms.HttpClientUtil] http post request :POST http://localhost:8080/ms/city/code HTTP/1.1
+[INFO ] 2017-09-06 16:49:52,107 --pool-3-thread-1-- [com.avalon.ms.HttpClientUtil] http post request :POST http://localhost:8080/ms/city/code HTTP/1.1
+[INFO ] 2017-09-06 16:49:57,104 --pool-3-thread-2-- [com.avalon.ms.HttpClientUtil] httpclient close!
 [INFO ] 2017-09-06 16:49:57,104 --pool-3-thread-2-- [com.avalon.ms.schedule.task.service.PrintService] http response 200 
 [INFO ] 2017-09-06 16:49:57,105 --pool-3-thread-2-- [com.avalon.ms.schedule.task.service.PrintService] http response content {city:1} 
-[INFO ] 2017-09-06 16:49:57,106 --pool-3-thread-4-- [com.avalon.ms.common.util.HttpClientUtil] httpclient close! 
+[INFO ] 2017-09-06 16:49:57,106 --pool-3-thread-4-- [com.avalon.ms.HttpClientUtil] httpclient close!
 [INFO ] 2017-09-06 16:49:57,106 --pool-3-thread-4-- [com.avalon.ms.schedule.task.service.PrintService] http response 200 
 [INFO ] 2017-09-06 16:49:57,107 --pool-3-thread-4-- [com.avalon.ms.schedule.task.service.PrintService] http response content {city:3} 
-[INFO ] 2017-09-06 16:49:57,116 --pool-3-thread-3-- [com.avalon.ms.common.util.HttpClientUtil] httpclient close! 
+[INFO ] 2017-09-06 16:49:57,116 --pool-3-thread-3-- [com.avalon.ms.HttpClientUtil] httpclient close!
 [INFO ] 2017-09-06 16:49:57,116 --pool-3-thread-3-- [com.avalon.ms.schedule.task.service.PrintService] http response 200 
 [INFO ] 2017-09-06 16:49:57,116 --pool-3-thread-3-- [com.avalon.ms.schedule.task.service.PrintService] http response content {city:2} 
-[INFO ] 2017-09-06 16:49:57,119 --pool-3-thread-2-- [com.avalon.ms.common.util.HttpClientUtil] http post request :POST http://localhost:8080/ms/city/code HTTP/1.1 
-[INFO ] 2017-09-06 16:49:57,128 --pool-3-thread-1-- [com.avalon.ms.common.util.HttpClientUtil] httpclient close! 
+[INFO ] 2017-09-06 16:49:57,119 --pool-3-thread-2-- [com.avalon.ms.HttpClientUtil] http post request :POST http://localhost:8080/ms/city/code HTTP/1.1
+[INFO ] 2017-09-06 16:49:57,128 --pool-3-thread-1-- [com.avalon.ms.HttpClientUtil] httpclient close!
 [INFO ] 2017-09-06 16:49:57,128 --pool-3-thread-1-- [com.avalon.ms.schedule.task.service.PrintService] http response 200 
 [INFO ] 2017-09-06 16:49:57,128 --pool-3-thread-1-- [com.avalon.ms.schedule.task.service.PrintService] http response content {city:0} 
-[INFO ] 2017-09-06 16:50:02,134 --pool-3-thread-2-- [com.avalon.ms.common.util.HttpClientUtil] httpclient close! 
+[INFO ] 2017-09-06 16:50:02,134 --pool-3-thread-2-- [com.avalon.ms.HttpClientUtil] httpclient close!
 [INFO ] 2017-09-06 16:50:02,134 --pool-3-thread-2-- [com.avalon.ms.schedule.task.service.PrintService] http response 200 
 [INFO ] 2017-09-06 16:50:02,134 --pool-3-thread-2-- [com.avalon.ms.schedule.task.service.PrintService] http response content {city:4} 
 [INFO ] 2017-09-06 16:50:02,136 --pool-1-thread-1-- [com.avalon.ms.schedule.task.service.PrintService] print task end! 
 [INFO ] 2017-09-06 16:51:02,136 --pool-1-thread-1-- [com.avalon.ms.schedule.task.service.PrintService] print task start! size 5 
-[INFO ] 2017-09-06 16:51:02,150 --pool-4-thread-3-- [com.avalon.ms.common.util.HttpClientUtil] http post request :POST http://localhost:8080/ms/city/code HTTP/1.1 
-[INFO ] 2017-09-06 16:51:02,150 --pool-4-thread-1-- [com.avalon.ms.common.util.HttpClientUtil] http post request :POST http://localhost:8080/ms/city/code HTTP/1.1 
-[INFO ] 2017-09-06 16:51:02,155 --pool-4-thread-2-- [com.avalon.ms.common.util.HttpClientUtil] http post request :POST http://localhost:8080/ms/city/code HTTP/1.1 
-[INFO ] 2017-09-06 16:51:02,156 --pool-4-thread-4-- [com.avalon.ms.common.util.HttpClientUtil] http post request :POST http://localhost:8080/ms/city/code HTTP/1.1 
-[INFO ] 2017-09-06 16:51:07,375 --pool-4-thread-3-- [com.avalon.ms.common.util.HttpClientUtil] httpclient close! 
-[INFO ] 2017-09-06 16:51:07,375 --pool-4-thread-2-- [com.avalon.ms.common.util.HttpClientUtil] httpclient close! 
+[INFO ] 2017-09-06 16:51:02,150 --pool-4-thread-3-- [com.avalon.ms.HttpClientUtil] http post request :POST http://localhost:8080/ms/city/code HTTP/1.1
+[INFO ] 2017-09-06 16:51:02,150 --pool-4-thread-1-- [com.avalon.ms.HttpClientUtil] http post request :POST http://localhost:8080/ms/city/code HTTP/1.1
+[INFO ] 2017-09-06 16:51:02,155 --pool-4-thread-2-- [com.avalon.ms.HttpClientUtil] http post request :POST http://localhost:8080/ms/city/code HTTP/1.1
+[INFO ] 2017-09-06 16:51:02,156 --pool-4-thread-4-- [com.avalon.ms.HttpClientUtil] http post request :POST http://localhost:8080/ms/city/code HTTP/1.1
+[INFO ] 2017-09-06 16:51:07,375 --pool-4-thread-3-- [com.avalon.ms.HttpClientUtil] httpclient close!
+[INFO ] 2017-09-06 16:51:07,375 --pool-4-thread-2-- [com.avalon.ms.HttpClientUtil] httpclient close!
 [INFO ] 2017-09-06 16:51:07,375 --pool-4-thread-3-- [com.avalon.ms.schedule.task.service.PrintService] http response 200 
 [INFO ] 2017-09-06 16:51:07,376 --pool-4-thread-2-- [com.avalon.ms.schedule.task.service.PrintService] http response 200 
 [INFO ] 2017-09-06 16:51:07,376 --pool-4-thread-3-- [com.avalon.ms.schedule.task.service.PrintService] http response content {city:2} 
 [INFO ] 2017-09-06 16:51:07,376 --pool-4-thread-2-- [com.avalon.ms.schedule.task.service.PrintService] http response content {city:1} 
-[INFO ] 2017-09-06 16:51:07,378 --pool-4-thread-1-- [com.avalon.ms.common.util.HttpClientUtil] httpclient close! 
+[INFO ] 2017-09-06 16:51:07,378 --pool-4-thread-1-- [com.avalon.ms.HttpClientUtil] httpclient close!
 [INFO ] 2017-09-06 16:51:07,378 --pool-4-thread-1-- [com.avalon.ms.schedule.task.service.PrintService] http response 200 
 [INFO ] 2017-09-06 16:51:07,378 --pool-4-thread-1-- [com.avalon.ms.schedule.task.service.PrintService] http response content {city:0} 
-[INFO ] 2017-09-06 16:51:07,379 --pool-4-thread-3-- [com.avalon.ms.common.util.HttpClientUtil] http post request :POST http://localhost:8080/ms/city/code HTTP/1.1 
-[INFO ] 2017-09-06 16:51:07,384 --pool-4-thread-4-- [com.avalon.ms.common.util.HttpClientUtil] httpclient close! 
+[INFO ] 2017-09-06 16:51:07,379 --pool-4-thread-3-- [com.avalon.ms.HttpClientUtil] http post request :POST http://localhost:8080/ms/city/code HTTP/1.1
+[INFO ] 2017-09-06 16:51:07,384 --pool-4-thread-4-- [com.avalon.ms.HttpClientUtil] httpclient close!
 [INFO ] 2017-09-06 16:51:07,384 --pool-4-thread-4-- [com.avalon.ms.schedule.task.service.PrintService] http response 200 
 [INFO ] 2017-09-06 16:51:07,384 --pool-4-thread-4-- [com.avalon.ms.schedule.task.service.PrintService] http response content {city:3} 
-[INFO ] 2017-09-06 16:51:37,397 --pool-4-thread-3-- [com.avalon.ms.common.util.HttpClientUtil] httpclient close! 
+[INFO ] 2017-09-06 16:51:37,397 --pool-4-thread-3-- [com.avalon.ms.HttpClientUtil] httpclient close!
 [INFO ] 2017-09-06 16:51:37,399 --pool-1-thread-1-- [com.avalon.ms.schedule.task.service.PrintService] print task end! 
 [INFO ] 2017-09-06 16:52:37,401 --pool-1-thread-3-- [com.avalon.ms.schedule.task.service.PrintService] print task start! size 5 
-[INFO ] 2017-09-06 16:52:37,436 --pool-5-thread-4-- [com.avalon.ms.common.util.HttpClientUtil] http post request :POST http://localhost:8080/ms/city/code HTTP/1.1 
-[INFO ] 2017-09-06 16:52:37,437 --pool-5-thread-3-- [com.avalon.ms.common.util.HttpClientUtil] http post request :POST http://localhost:8080/ms/city/code HTTP/1.1 
-[INFO ] 2017-09-06 16:52:37,439 --pool-5-thread-2-- [com.avalon.ms.common.util.HttpClientUtil] http post request :POST http://localhost:8080/ms/city/code HTTP/1.1 
-[INFO ] 2017-09-06 16:52:37,443 --pool-5-thread-1-- [com.avalon.ms.common.util.HttpClientUtil] http post request :POST http://localhost:8080/ms/city/code HTTP/1.1 
-[INFO ] 2017-09-06 16:52:42,454 --pool-5-thread-4-- [com.avalon.ms.common.util.HttpClientUtil] httpclient close! 
+[INFO ] 2017-09-06 16:52:37,436 --pool-5-thread-4-- [com.avalon.ms.HttpClientUtil] http post request :POST http://localhost:8080/ms/city/code HTTP/1.1
+[INFO ] 2017-09-06 16:52:37,437 --pool-5-thread-3-- [com.avalon.ms.HttpClientUtil] http post request :POST http://localhost:8080/ms/city/code HTTP/1.1
+[INFO ] 2017-09-06 16:52:37,439 --pool-5-thread-2-- [com.avalon.ms.HttpClientUtil] http post request :POST http://localhost:8080/ms/city/code HTTP/1.1
+[INFO ] 2017-09-06 16:52:37,443 --pool-5-thread-1-- [com.avalon.ms.HttpClientUtil] http post request :POST http://localhost:8080/ms/city/code HTTP/1.1
+[INFO ] 2017-09-06 16:52:42,454 --pool-5-thread-4-- [com.avalon.ms.HttpClientUtil] httpclient close!
 [INFO ] 2017-09-06 16:52:42,455 --pool-5-thread-4-- [com.avalon.ms.schedule.task.service.PrintService] http response 200 
 [INFO ] 2017-09-06 16:52:42,455 --pool-5-thread-4-- [com.avalon.ms.schedule.task.service.PrintService] http response content {city:3} 
-[INFO ] 2017-09-06 16:52:42,459 --pool-5-thread-3-- [com.avalon.ms.common.util.HttpClientUtil] httpclient close! 
+[INFO ] 2017-09-06 16:52:42,459 --pool-5-thread-3-- [com.avalon.ms.HttpClientUtil] httpclient close!
 [INFO ] 2017-09-06 16:52:42,459 --pool-5-thread-3-- [com.avalon.ms.schedule.task.service.PrintService] http response 200 
 [INFO ] 2017-09-06 16:52:42,459 --pool-5-thread-3-- [com.avalon.ms.schedule.task.service.PrintService] http response content {city:2} 
-[INFO ] 2017-09-06 16:52:42,462 --pool-5-thread-2-- [com.avalon.ms.common.util.HttpClientUtil] httpclient close! 
+[INFO ] 2017-09-06 16:52:42,462 --pool-5-thread-2-- [com.avalon.ms.HttpClientUtil] httpclient close!
 [INFO ] 2017-09-06 16:52:42,462 --pool-5-thread-2-- [com.avalon.ms.schedule.task.service.PrintService] http response 200 
 [INFO ] 2017-09-06 16:52:42,462 --pool-5-thread-2-- [com.avalon.ms.schedule.task.service.PrintService] http response content {city:1} 
-[INFO ] 2017-09-06 16:52:42,467 --pool-5-thread-4-- [com.avalon.ms.common.util.HttpClientUtil] http post request :POST http://localhost:8080/ms/city/code HTTP/1.1 
-[INFO ] 2017-09-06 16:52:42,472 --pool-5-thread-1-- [com.avalon.ms.common.util.HttpClientUtil] httpclient close! 
+[INFO ] 2017-09-06 16:52:42,467 --pool-5-thread-4-- [com.avalon.ms.HttpClientUtil] http post request :POST http://localhost:8080/ms/city/code HTTP/1.1
+[INFO ] 2017-09-06 16:52:42,472 --pool-5-thread-1-- [com.avalon.ms.HttpClientUtil] httpclient close!
 [INFO ] 2017-09-06 16:52:42,472 --pool-5-thread-1-- [com.avalon.ms.schedule.task.service.PrintService] http response 200 
 [INFO ] 2017-09-06 16:52:42,472 --pool-5-thread-1-- [com.avalon.ms.schedule.task.service.PrintService] http response content {city:0} 
-[INFO ] 2017-09-06 16:53:12,473 --pool-5-thread-4-- [com.avalon.ms.common.util.HttpClientUtil] httpclient close! 
+[INFO ] 2017-09-06 16:53:12,473 --pool-5-thread-4-- [com.avalon.ms.HttpClientUtil] httpclient close!
 [INFO ] 2017-09-06 16:53:12,475 --pool-1-thread-3-- [com.avalon.ms.schedule.task.service.PrintService] print task end! 
 [INFO ] 2017-09-06 16:54:12,476 --pool-1-thread-3-- [com.avalon.ms.schedule.task.service.PrintService] print task start! size 5 
-[INFO ] 2017-09-06 16:54:12,497 --pool-6-thread-2-- [com.avalon.ms.common.util.HttpClientUtil] http post request :POST http://localhost:8080/ms/city/code HTTP/1.1 
-[INFO ] 2017-09-06 16:54:12,497 --pool-6-thread-1-- [com.avalon.ms.common.util.HttpClientUtil] http post request :POST http://localhost:8080/ms/city/code HTTP/1.1 
-[INFO ] 2017-09-06 16:54:12,498 --pool-6-thread-3-- [com.avalon.ms.common.util.HttpClientUtil] http post request :POST http://localhost:8080/ms/city/code HTTP/1.1 
-[INFO ] 2017-09-06 16:54:12,509 --pool-6-thread-4-- [com.avalon.ms.common.util.HttpClientUtil] http post request :POST http://localhost:8080/ms/city/code HTTP/1.1 
-[INFO ] 2017-09-06 16:54:17,510 --pool-6-thread-2-- [com.avalon.ms.common.util.HttpClientUtil] httpclient close! 
+[INFO ] 2017-09-06 16:54:12,497 --pool-6-thread-2-- [com.avalon.ms.HttpClientUtil] http post request :POST http://localhost:8080/ms/city/code HTTP/1.1
+[INFO ] 2017-09-06 16:54:12,497 --pool-6-thread-1-- [com.avalon.ms.HttpClientUtil] http post request :POST http://localhost:8080/ms/city/code HTTP/1.1
+[INFO ] 2017-09-06 16:54:12,498 --pool-6-thread-3-- [com.avalon.ms.HttpClientUtil] http post request :POST http://localhost:8080/ms/city/code HTTP/1.1
+[INFO ] 2017-09-06 16:54:12,509 --pool-6-thread-4-- [com.avalon.ms.HttpClientUtil] http post request :POST http://localhost:8080/ms/city/code HTTP/1.1
+[INFO ] 2017-09-06 16:54:17,510 --pool-6-thread-2-- [com.avalon.ms.HttpClientUtil] httpclient close!
 [INFO ] 2017-09-06 16:54:17,510 --pool-6-thread-2-- [com.avalon.ms.schedule.task.service.PrintService] http response 200 
 [INFO ] 2017-09-06 16:54:17,510 --pool-6-thread-2-- [com.avalon.ms.schedule.task.service.PrintService] http response content {city:1} 
-[INFO ] 2017-09-06 16:54:17,514 --pool-6-thread-1-- [com.avalon.ms.common.util.HttpClientUtil] httpclient close! 
+[INFO ] 2017-09-06 16:54:17,514 --pool-6-thread-1-- [com.avalon.ms.HttpClientUtil] httpclient close!
 [INFO ] 2017-09-06 16:54:17,514 --pool-6-thread-1-- [com.avalon.ms.schedule.task.service.PrintService] http response 200 
 [INFO ] 2017-09-06 16:54:17,514 --pool-6-thread-1-- [com.avalon.ms.schedule.task.service.PrintService] http response content {city:0} 
-[INFO ] 2017-09-06 16:54:17,524 --pool-6-thread-2-- [com.avalon.ms.common.util.HttpClientUtil] http post request :POST http://localhost:8080/ms/city/code HTTP/1.1 
-[INFO ] 2017-09-06 16:54:17,533 --pool-6-thread-3-- [com.avalon.ms.common.util.HttpClientUtil] httpclient close! 
+[INFO ] 2017-09-06 16:54:17,524 --pool-6-thread-2-- [com.avalon.ms.HttpClientUtil] http post request :POST http://localhost:8080/ms/city/code HTTP/1.1
+[INFO ] 2017-09-06 16:54:17,533 --pool-6-thread-3-- [com.avalon.ms.HttpClientUtil] httpclient close!
 [INFO ] 2017-09-06 16:54:17,533 --pool-6-thread-3-- [com.avalon.ms.schedule.task.service.PrintService] http response 200 
 [INFO ] 2017-09-06 16:54:17,533 --pool-6-thread-3-- [com.avalon.ms.schedule.task.service.PrintService] http response content {city:2} 
-[INFO ] 2017-09-06 16:54:17,540 --pool-6-thread-4-- [com.avalon.ms.common.util.HttpClientUtil] httpclient close! 
+[INFO ] 2017-09-06 16:54:17,540 --pool-6-thread-4-- [com.avalon.ms.HttpClientUtil] httpclient close!
 [INFO ] 2017-09-06 16:54:17,540 --pool-6-thread-4-- [com.avalon.ms.schedule.task.service.PrintService] http response 200 
 [INFO ] 2017-09-06 16:54:17,540 --pool-6-thread-4-- [com.avalon.ms.schedule.task.service.PrintService] http response content {city:3} 
-[INFO ] 2017-09-06 16:54:47,527 --pool-6-thread-2-- [com.avalon.ms.common.util.HttpClientUtil] httpclient close! 
+[INFO ] 2017-09-06 16:54:47,527 --pool-6-thread-2-- [com.avalon.ms.HttpClientUtil] httpclient close!
 [INFO ] 2017-09-06 16:54:47,528 --pool-1-thread-3-- [com.avalon.ms.schedule.task.service.PrintService] print task end! 
 [INFO ] 2017-09-06 16:55:47,528 --pool-1-thread-3-- [com.avalon.ms.schedule.task.service.PrintService] print task start! size 5 
-[INFO ] 2017-09-06 16:55:47,549 --pool-7-thread-1-- [com.avalon.ms.common.util.HttpClientUtil] http post request :POST http://localhost:8080/ms/city/code HTTP/1.1 
-[INFO ] 2017-09-06 16:55:47,552 --pool-7-thread-3-- [com.avalon.ms.common.util.HttpClientUtil] http post request :POST http://localhost:8080/ms/city/code HTTP/1.1 
-[INFO ] 2017-09-06 16:55:47,564 --pool-7-thread-2-- [com.avalon.ms.common.util.HttpClientUtil] http post request :POST http://localhost:8080/ms/city/code HTTP/1.1 
-[INFO ] 2017-09-06 16:55:47,565 --pool-7-thread-4-- [com.avalon.ms.common.util.HttpClientUtil] http post request :POST http://localhost:8080/ms/city/code HTTP/1.1 
-[INFO ] 2017-09-06 16:55:52,564 --pool-7-thread-1-- [com.avalon.ms.common.util.HttpClientUtil] httpclient close! 
+[INFO ] 2017-09-06 16:55:47,549 --pool-7-thread-1-- [com.avalon.ms.HttpClientUtil] http post request :POST http://localhost:8080/ms/city/code HTTP/1.1
+[INFO ] 2017-09-06 16:55:47,552 --pool-7-thread-3-- [com.avalon.ms.HttpClientUtil] http post request :POST http://localhost:8080/ms/city/code HTTP/1.1
+[INFO ] 2017-09-06 16:55:47,564 --pool-7-thread-2-- [com.avalon.ms.HttpClientUtil] http post request :POST http://localhost:8080/ms/city/code HTTP/1.1
+[INFO ] 2017-09-06 16:55:47,565 --pool-7-thread-4-- [com.avalon.ms.HttpClientUtil] http post request :POST http://localhost:8080/ms/city/code HTTP/1.1
+[INFO ] 2017-09-06 16:55:52,564 --pool-7-thread-1-- [com.avalon.ms.HttpClientUtil] httpclient close!
 [INFO ] 2017-09-06 16:55:52,565 --pool-7-thread-1-- [com.avalon.ms.schedule.task.service.PrintService] http response 200 
 [INFO ] 2017-09-06 16:55:52,566 --pool-7-thread-1-- [com.avalon.ms.schedule.task.service.PrintService] http response content {city:0} 
-[INFO ] 2017-09-06 16:55:52,569 --pool-7-thread-3-- [com.avalon.ms.common.util.HttpClientUtil] httpclient close! 
+[INFO ] 2017-09-06 16:55:52,569 --pool-7-thread-3-- [com.avalon.ms.HttpClientUtil] httpclient close!
 [INFO ] 2017-09-06 16:55:52,569 --pool-7-thread-3-- [com.avalon.ms.schedule.task.service.PrintService] http response 200 
 [INFO ] 2017-09-06 16:55:52,569 --pool-7-thread-3-- [com.avalon.ms.schedule.task.service.PrintService] http response content {city:2} 
-[INFO ] 2017-09-06 16:55:52,579 --pool-7-thread-1-- [com.avalon.ms.common.util.HttpClientUtil] http post request :POST http://localhost:8080/ms/city/code HTTP/1.1 
-[INFO ] 2017-09-06 16:55:52,581 --pool-7-thread-2-- [com.avalon.ms.common.util.HttpClientUtil] httpclient close! 
+[INFO ] 2017-09-06 16:55:52,579 --pool-7-thread-1-- [com.avalon.ms.HttpClientUtil] http post request :POST http://localhost:8080/ms/city/code HTTP/1.1
+[INFO ] 2017-09-06 16:55:52,581 --pool-7-thread-2-- [com.avalon.ms.HttpClientUtil] httpclient close!
 [INFO ] 2017-09-06 16:55:52,581 --pool-7-thread-2-- [com.avalon.ms.schedule.task.service.PrintService] http response 200 
 [INFO ] 2017-09-06 16:55:52,581 --pool-7-thread-2-- [com.avalon.ms.schedule.task.service.PrintService] http response content {city:1} 
-[INFO ] 2017-09-06 16:55:52,589 --pool-7-thread-4-- [com.avalon.ms.common.util.HttpClientUtil] httpclient close! 
+[INFO ] 2017-09-06 16:55:52,589 --pool-7-thread-4-- [com.avalon.ms.HttpClientUtil] httpclient close!
 [INFO ] 2017-09-06 16:55:52,589 --pool-7-thread-4-- [com.avalon.ms.schedule.task.service.PrintService] http response 200 
 [INFO ] 2017-09-06 16:55:52,589 --pool-7-thread-4-- [com.avalon.ms.schedule.task.service.PrintService] http response content {city:3} 
-[INFO ] 2017-09-06 16:56:22,582 --pool-7-thread-1-- [com.avalon.ms.common.util.HttpClientUtil] httpclient close! 
+[INFO ] 2017-09-06 16:56:22,582 --pool-7-thread-1-- [com.avalon.ms.HttpClientUtil] httpclient close!
 [INFO ] 2017-09-06 16:56:22,584 --pool-1-thread-3-- [com.avalon.ms.schedule.task.service.PrintService] print task end! 
 [INFO ] 2017-09-06 16:57:22,584 --pool-1-thread-3-- [com.avalon.ms.schedule.task.service.PrintService] print task start! size 5 
-[INFO ] 2017-09-06 16:57:22,605 --pool-8-thread-2-- [com.avalon.ms.common.util.HttpClientUtil] http post request :POST http://localhost:8080/ms/city/code HTTP/1.1 
-[INFO ] 2017-09-06 16:57:22,605 --pool-8-thread-3-- [com.avalon.ms.common.util.HttpClientUtil] http post request :POST http://localhost:8080/ms/city/code HTTP/1.1 
-[INFO ] 2017-09-06 16:57:22,605 --pool-8-thread-1-- [com.avalon.ms.common.util.HttpClientUtil] http post request :POST http://localhost:8080/ms/city/code HTTP/1.1 
-[INFO ] 2017-09-06 16:57:22,617 --pool-8-thread-4-- [com.avalon.ms.common.util.HttpClientUtil] http post request :POST http://localhost:8080/ms/city/code HTTP/1.1 
-[INFO ] 2017-09-06 16:57:27,618 --pool-8-thread-3-- [com.avalon.ms.common.util.HttpClientUtil] httpclient close! 
-[INFO ] 2017-09-06 16:57:27,619 --pool-8-thread-2-- [com.avalon.ms.common.util.HttpClientUtil] httpclient close! 
+[INFO ] 2017-09-06 16:57:22,605 --pool-8-thread-2-- [com.avalon.ms.HttpClientUtil] http post request :POST http://localhost:8080/ms/city/code HTTP/1.1
+[INFO ] 2017-09-06 16:57:22,605 --pool-8-thread-3-- [com.avalon.ms.HttpClientUtil] http post request :POST http://localhost:8080/ms/city/code HTTP/1.1
+[INFO ] 2017-09-06 16:57:22,605 --pool-8-thread-1-- [com.avalon.ms.HttpClientUtil] http post request :POST http://localhost:8080/ms/city/code HTTP/1.1
+[INFO ] 2017-09-06 16:57:22,617 --pool-8-thread-4-- [com.avalon.ms.HttpClientUtil] http post request :POST http://localhost:8080/ms/city/code HTTP/1.1
+[INFO ] 2017-09-06 16:57:27,618 --pool-8-thread-3-- [com.avalon.ms.HttpClientUtil] httpclient close!
+[INFO ] 2017-09-06 16:57:27,619 --pool-8-thread-2-- [com.avalon.ms.HttpClientUtil] httpclient close!
 [INFO ] 2017-09-06 16:57:27,619 --pool-8-thread-3-- [com.avalon.ms.schedule.task.service.PrintService] http response 200 
 [INFO ] 2017-09-06 16:57:27,619 --pool-8-thread-2-- [com.avalon.ms.schedule.task.service.PrintService] http response 200 
 [INFO ] 2017-09-06 16:57:27,619 --pool-8-thread-2-- [com.avalon.ms.schedule.task.service.PrintService] http response content {city:1} 
 [INFO ] 2017-09-06 16:57:27,619 --pool-8-thread-3-- [com.avalon.ms.schedule.task.service.PrintService] http response content {city:2} 
-[INFO ] 2017-09-06 16:57:27,627 --pool-8-thread-1-- [com.avalon.ms.common.util.HttpClientUtil] httpclient close! 
+[INFO ] 2017-09-06 16:57:27,627 --pool-8-thread-1-- [com.avalon.ms.HttpClientUtil] httpclient close!
 [INFO ] 2017-09-06 16:57:27,627 --pool-8-thread-1-- [com.avalon.ms.schedule.task.service.PrintService] http response 200 
 [INFO ] 2017-09-06 16:57:27,627 --pool-8-thread-1-- [com.avalon.ms.schedule.task.service.PrintService] http response content {city:0} 
-[INFO ] 2017-09-06 16:57:27,635 --pool-8-thread-2-- [com.avalon.ms.common.util.HttpClientUtil] http post request :POST http://localhost:8080/ms/city/code HTTP/1.1 
-[INFO ] 2017-09-06 16:57:27,639 --pool-8-thread-4-- [com.avalon.ms.common.util.HttpClientUtil] httpclient close! 
+[INFO ] 2017-09-06 16:57:27,635 --pool-8-thread-2-- [com.avalon.ms.HttpClientUtil] http post request :POST http://localhost:8080/ms/city/code HTTP/1.1
+[INFO ] 2017-09-06 16:57:27,639 --pool-8-thread-4-- [com.avalon.ms.HttpClientUtil] httpclient close!
 [INFO ] 2017-09-06 16:57:27,639 --pool-8-thread-4-- [com.avalon.ms.schedule.task.service.PrintService] http response 200 
 [INFO ] 2017-09-06 16:57:27,639 --pool-8-thread-4-- [com.avalon.ms.schedule.task.service.PrintService] http response content {city:3} 
-[INFO ] 2017-09-06 16:57:57,640 --pool-8-thread-2-- [com.avalon.ms.common.util.HttpClientUtil] httpclient close! 
+[INFO ] 2017-09-06 16:57:57,640 --pool-8-thread-2-- [com.avalon.ms.HttpClientUtil] httpclient close!
 [INFO ] 2017-09-06 16:57:57,643 --pool-1-thread-3-- [com.avalon.ms.schedule.task.service.PrintService] print task end! 
 [INFO ] 2017-09-06 16:58:57,644 --pool-1-thread-3-- [com.avalon.ms.schedule.task.service.PrintService] print task start! size 5 
-[INFO ] 2017-09-06 16:58:57,656 --pool-9-thread-1-- [com.avalon.ms.common.util.HttpClientUtil] http post request :POST http://localhost:8080/ms/city/code HTTP/1.1 
-[INFO ] 2017-09-06 16:58:57,673 --pool-9-thread-4-- [com.avalon.ms.common.util.HttpClientUtil] http post request :POST http://localhost:8080/ms/city/code HTTP/1.1 
-[INFO ] 2017-09-06 16:58:57,681 --pool-9-thread-2-- [com.avalon.ms.common.util.HttpClientUtil] http post request :POST http://localhost:8080/ms/city/code HTTP/1.1 
-[INFO ] 2017-09-06 16:58:57,687 --pool-9-thread-3-- [com.avalon.ms.common.util.HttpClientUtil] http post request :POST http://localhost:8080/ms/city/code HTTP/1.1 
-[INFO ] 2017-09-06 16:59:02,667 --pool-9-thread-1-- [com.avalon.ms.common.util.HttpClientUtil] httpclient close! 
+[INFO ] 2017-09-06 16:58:57,656 --pool-9-thread-1-- [com.avalon.ms.HttpClientUtil] http post request :POST http://localhost:8080/ms/city/code HTTP/1.1
+[INFO ] 2017-09-06 16:58:57,673 --pool-9-thread-4-- [com.avalon.ms.HttpClientUtil] http post request :POST http://localhost:8080/ms/city/code HTTP/1.1
+[INFO ] 2017-09-06 16:58:57,681 --pool-9-thread-2-- [com.avalon.ms.HttpClientUtil] http post request :POST http://localhost:8080/ms/city/code HTTP/1.1
+[INFO ] 2017-09-06 16:58:57,687 --pool-9-thread-3-- [com.avalon.ms.HttpClientUtil] http post request :POST http://localhost:8080/ms/city/code HTTP/1.1
+[INFO ] 2017-09-06 16:59:02,667 --pool-9-thread-1-- [com.avalon.ms.HttpClientUtil] httpclient close!
 [INFO ] 2017-09-06 16:59:02,667 --pool-9-thread-1-- [com.avalon.ms.schedule.task.service.PrintService] http response 200 
 [INFO ] 2017-09-06 16:59:02,667 --pool-9-thread-1-- [com.avalon.ms.schedule.task.service.PrintService] http response content {city:0} 
-[INFO ] 2017-09-06 16:59:02,680 --pool-9-thread-4-- [com.avalon.ms.common.util.HttpClientUtil] httpclient close! 
+[INFO ] 2017-09-06 16:59:02,680 --pool-9-thread-4-- [com.avalon.ms.HttpClientUtil] httpclient close!
 [INFO ] 2017-09-06 16:59:02,680 --pool-9-thread-4-- [com.avalon.ms.schedule.task.service.PrintService] http response 200 
 [INFO ] 2017-09-06 16:59:02,681 --pool-9-thread-4-- [com.avalon.ms.schedule.task.service.PrintService] http response content {city:3} 
-[INFO ] 2017-09-06 16:59:02,681 --pool-9-thread-1-- [com.avalon.ms.common.util.HttpClientUtil] http post request :POST http://localhost:8080/ms/city/code HTTP/1.1 
-[INFO ] 2017-09-06 16:59:02,691 --pool-9-thread-2-- [com.avalon.ms.common.util.HttpClientUtil] httpclient close! 
+[INFO ] 2017-09-06 16:59:02,681 --pool-9-thread-1-- [com.avalon.ms.HttpClientUtil] http post request :POST http://localhost:8080/ms/city/code HTTP/1.1
+[INFO ] 2017-09-06 16:59:02,691 --pool-9-thread-2-- [com.avalon.ms.HttpClientUtil] httpclient close!
 [INFO ] 2017-09-06 16:59:02,691 --pool-9-thread-2-- [com.avalon.ms.schedule.task.service.PrintService] http response 200 
 [INFO ] 2017-09-06 16:59:02,692 --pool-9-thread-2-- [com.avalon.ms.schedule.task.service.PrintService] http response content {city:1} 
-[INFO ] 2017-09-06 16:59:02,695 --pool-9-thread-3-- [com.avalon.ms.common.util.HttpClientUtil] httpclient close! 
+[INFO ] 2017-09-06 16:59:02,695 --pool-9-thread-3-- [com.avalon.ms.HttpClientUtil] httpclient close!
 [INFO ] 2017-09-06 16:59:02,695 --pool-9-thread-3-- [com.avalon.ms.schedule.task.service.PrintService] http response 200 
 [INFO ] 2017-09-06 16:59:02,696 --pool-9-thread-3-- [com.avalon.ms.schedule.task.service.PrintService] http response content {city:2} 
-[INFO ] 2017-09-06 16:59:32,685 --pool-9-thread-1-- [com.avalon.ms.common.util.HttpClientUtil] httpclient close! 
+[INFO ] 2017-09-06 16:59:32,685 --pool-9-thread-1-- [com.avalon.ms.HttpClientUtil] httpclient close!
 [INFO ] 2017-09-06 16:59:32,686 --pool-1-thread-3-- [com.avalon.ms.schedule.task.service.PrintService] print task end! 
 [INFO ] 2017-09-06 17:00:32,685 --pool-1-thread-3-- [com.avalon.ms.schedule.task.service.PrintService] print task start! size 5 
-[INFO ] 2017-09-06 17:00:32,695 --pool-10-thread-4-- [com.avalon.ms.common.util.HttpClientUtil] http post request :POST http://localhost:8080/ms/city/code HTTP/1.1 
-[INFO ] 2017-09-06 17:00:32,702 --pool-10-thread-3-- [com.avalon.ms.common.util.HttpClientUtil] http post request :POST http://localhost:8080/ms/city/code HTTP/1.1 
-[INFO ] 2017-09-06 17:00:32,703 --pool-10-thread-1-- [com.avalon.ms.common.util.HttpClientUtil] http post request :POST http://localhost:8080/ms/city/code HTTP/1.1 
-[INFO ] 2017-09-06 17:00:32,709 --pool-10-thread-2-- [com.avalon.ms.common.util.HttpClientUtil] http post request :POST http://localhost:8080/ms/city/code HTTP/1.1 
-[INFO ] 2017-09-06 17:00:37,703 --pool-10-thread-4-- [com.avalon.ms.common.util.HttpClientUtil] httpclient close! 
+[INFO ] 2017-09-06 17:00:32,695 --pool-10-thread-4-- [com.avalon.ms.HttpClientUtil] http post request :POST http://localhost:8080/ms/city/code HTTP/1.1
+[INFO ] 2017-09-06 17:00:32,702 --pool-10-thread-3-- [com.avalon.ms.HttpClientUtil] http post request :POST http://localhost:8080/ms/city/code HTTP/1.1
+[INFO ] 2017-09-06 17:00:32,703 --pool-10-thread-1-- [com.avalon.ms.HttpClientUtil] http post request :POST http://localhost:8080/ms/city/code HTTP/1.1
+[INFO ] 2017-09-06 17:00:32,709 --pool-10-thread-2-- [com.avalon.ms.HttpClientUtil] http post request :POST http://localhost:8080/ms/city/code HTTP/1.1
+[INFO ] 2017-09-06 17:00:37,703 --pool-10-thread-4-- [com.avalon.ms.HttpClientUtil] httpclient close!
 [INFO ] 2017-09-06 17:00:37,703 --pool-10-thread-4-- [com.avalon.ms.schedule.task.service.PrintService] http response 200 
 [INFO ] 2017-09-06 17:00:37,704 --pool-10-thread-4-- [com.avalon.ms.schedule.task.service.PrintService] http response content {city:2} 
-[INFO ] 2017-09-06 17:00:37,713 --pool-10-thread-3-- [com.avalon.ms.common.util.HttpClientUtil] httpclient close! 
+[INFO ] 2017-09-06 17:00:37,713 --pool-10-thread-3-- [com.avalon.ms.HttpClientUtil] httpclient close!
 [INFO ] 2017-09-06 17:00:37,713 --pool-10-thread-3-- [com.avalon.ms.schedule.task.service.PrintService] http response 200 
 [INFO ] 2017-09-06 17:00:37,713 --pool-10-thread-3-- [com.avalon.ms.schedule.task.service.PrintService] http response content {city:1} 
-[INFO ] 2017-09-06 17:00:37,719 --pool-10-thread-4-- [com.avalon.ms.common.util.HttpClientUtil] http post request :POST http://localhost:8080/ms/city/code HTTP/1.1 
-[INFO ] 2017-09-06 17:00:37,719 --pool-10-thread-1-- [com.avalon.ms.common.util.HttpClientUtil] httpclient close! 
+[INFO ] 2017-09-06 17:00:37,719 --pool-10-thread-4-- [com.avalon.ms.HttpClientUtil] http post request :POST http://localhost:8080/ms/city/code HTTP/1.1
+[INFO ] 2017-09-06 17:00:37,719 --pool-10-thread-1-- [com.avalon.ms.HttpClientUtil] httpclient close!
 [INFO ] 2017-09-06 17:00:37,719 --pool-10-thread-1-- [com.avalon.ms.schedule.task.service.PrintService] http response 200 
 [INFO ] 2017-09-06 17:00:37,719 --pool-10-thread-1-- [com.avalon.ms.schedule.task.service.PrintService] http response content {city:0} 
-[INFO ] 2017-09-06 17:00:37,723 --pool-10-thread-2-- [com.avalon.ms.common.util.HttpClientUtil] httpclient close! 
+[INFO ] 2017-09-06 17:00:37,723 --pool-10-thread-2-- [com.avalon.ms.HttpClientUtil] httpclient close!
 [INFO ] 2017-09-06 17:00:37,724 --pool-10-thread-2-- [com.avalon.ms.schedule.task.service.PrintService] http response 200 
 [INFO ] 2017-09-06 17:00:37,724 --pool-10-thread-2-- [com.avalon.ms.schedule.task.service.PrintService] http response content {city:3} 
-[INFO ] 2017-09-06 17:01:07,723 --pool-10-thread-4-- [com.avalon.ms.common.util.HttpClientUtil] httpclient close! 
+[INFO ] 2017-09-06 17:01:07,723 --pool-10-thread-4-- [com.avalon.ms.HttpClientUtil] httpclient close!
 [INFO ] 2017-09-06 17:01:07,724 --pool-1-thread-3-- [com.avalon.ms.schedule.task.service.PrintService] print task end! 
 [INFO ] 2017-09-06 17:02:07,725 --pool-1-thread-3-- [com.avalon.ms.schedule.task.service.PrintService] print task start! size 5 
-[INFO ] 2017-09-06 17:02:07,749 --pool-11-thread-3-- [com.avalon.ms.common.util.HttpClientUtil] http post request :POST http://localhost:8080/ms/city/code HTTP/1.1 
-[INFO ] 2017-09-06 17:02:07,750 --pool-11-thread-2-- [com.avalon.ms.common.util.HttpClientUtil] http post request :POST http://localhost:8080/ms/city/code HTTP/1.1 
-[INFO ] 2017-09-06 17:02:07,757 --pool-11-thread-4-- [com.avalon.ms.common.util.HttpClientUtil] http post request :POST http://localhost:8080/ms/city/code HTTP/1.1 
-[INFO ] 2017-09-06 17:02:07,757 --pool-11-thread-1-- [com.avalon.ms.common.util.HttpClientUtil] http post request :POST http://localhost:8080/ms/city/code HTTP/1.1 
-[INFO ] 2017-09-06 17:02:12,758 --pool-11-thread-3-- [com.avalon.ms.common.util.HttpClientUtil] httpclient close! 
+[INFO ] 2017-09-06 17:02:07,749 --pool-11-thread-3-- [com.avalon.ms.HttpClientUtil] http post request :POST http://localhost:8080/ms/city/code HTTP/1.1
+[INFO ] 2017-09-06 17:02:07,750 --pool-11-thread-2-- [com.avalon.ms.HttpClientUtil] http post request :POST http://localhost:8080/ms/city/code HTTP/1.1
+[INFO ] 2017-09-06 17:02:07,757 --pool-11-thread-4-- [com.avalon.ms.HttpClientUtil] http post request :POST http://localhost:8080/ms/city/code HTTP/1.1
+[INFO ] 2017-09-06 17:02:07,757 --pool-11-thread-1-- [com.avalon.ms.HttpClientUtil] http post request :POST http://localhost:8080/ms/city/code HTTP/1.1
+[INFO ] 2017-09-06 17:02:12,758 --pool-11-thread-3-- [com.avalon.ms.HttpClientUtil] httpclient close!
 [INFO ] 2017-09-06 17:02:12,758 --pool-11-thread-3-- [com.avalon.ms.schedule.task.service.PrintService] http response 200 
 [INFO ] 2017-09-06 17:02:12,758 --pool-11-thread-3-- [com.avalon.ms.schedule.task.service.PrintService] http response content {city:2} 
-[INFO ] 2017-09-06 17:02:12,759 --pool-11-thread-2-- [com.avalon.ms.common.util.HttpClientUtil] httpclient close! 
+[INFO ] 2017-09-06 17:02:12,759 --pool-11-thread-2-- [com.avalon.ms.HttpClientUtil] httpclient close!
 [INFO ] 2017-09-06 17:02:12,759 --pool-11-thread-2-- [com.avalon.ms.schedule.task.service.PrintService] http response 200 
 [INFO ] 2017-09-06 17:02:12,759 --pool-11-thread-2-- [com.avalon.ms.schedule.task.service.PrintService] http response content {city:1} 
-[INFO ] 2017-09-06 17:02:12,772 --pool-11-thread-3-- [com.avalon.ms.common.util.HttpClientUtil] http post request :POST http://localhost:8080/ms/city/code HTTP/1.1 
-[INFO ] 2017-09-06 17:02:12,775 --pool-11-thread-1-- [com.avalon.ms.common.util.HttpClientUtil] httpclient close! 
+[INFO ] 2017-09-06 17:02:12,772 --pool-11-thread-3-- [com.avalon.ms.HttpClientUtil] http post request :POST http://localhost:8080/ms/city/code HTTP/1.1
+[INFO ] 2017-09-06 17:02:12,775 --pool-11-thread-1-- [com.avalon.ms.HttpClientUtil] httpclient close!
 [INFO ] 2017-09-06 17:02:12,776 --pool-11-thread-1-- [com.avalon.ms.schedule.task.service.PrintService] http response 200 
 [INFO ] 2017-09-06 17:02:12,776 --pool-11-thread-1-- [com.avalon.ms.schedule.task.service.PrintService] http response content {city:0} 
-[INFO ] 2017-09-06 17:02:12,784 --pool-11-thread-4-- [com.avalon.ms.common.util.HttpClientUtil] httpclient close! 
+[INFO ] 2017-09-06 17:02:12,784 --pool-11-thread-4-- [com.avalon.ms.HttpClientUtil] httpclient close!
 [INFO ] 2017-09-06 17:02:12,784 --pool-11-thread-4-- [com.avalon.ms.schedule.task.service.PrintService] http response 200 
 [INFO ] 2017-09-06 17:02:12,784 --pool-11-thread-4-- [com.avalon.ms.schedule.task.service.PrintService] http response content {city:3} 
-[INFO ] 2017-09-06 17:02:42,777 --pool-11-thread-3-- [com.avalon.ms.common.util.HttpClientUtil] httpclient close! 
+[INFO ] 2017-09-06 17:02:42,777 --pool-11-thread-3-- [com.avalon.ms.HttpClientUtil] httpclient close!
 [INFO ] 2017-09-06 17:02:42,779 --pool-1-thread-3-- [com.avalon.ms.schedule.task.service.PrintService] print task end! 
 [INFO ] 2017-09-06 17:03:42,780 --pool-1-thread-3-- [com.avalon.ms.schedule.task.service.PrintService] print task start! size 5 
-[INFO ] 2017-09-06 17:03:42,808 --pool-12-thread-2-- [com.avalon.ms.common.util.HttpClientUtil] http post request :POST http://localhost:8080/ms/city/code HTTP/1.1 
-[INFO ] 2017-09-06 17:03:42,808 --pool-12-thread-1-- [com.avalon.ms.common.util.HttpClientUtil] http post request :POST http://localhost:8080/ms/city/code HTTP/1.1 
-[INFO ] 2017-09-06 17:03:42,819 --pool-12-thread-3-- [com.avalon.ms.common.util.HttpClientUtil] http post request :POST http://localhost:8080/ms/city/code HTTP/1.1 
-[INFO ] 2017-09-06 17:03:42,820 --pool-12-thread-4-- [com.avalon.ms.common.util.HttpClientUtil] http post request :POST http://localhost:8080/ms/city/code HTTP/1.1 
-[INFO ] 2017-09-06 17:03:47,827 --pool-12-thread-3-- [com.avalon.ms.common.util.HttpClientUtil] httpclient close! 
+[INFO ] 2017-09-06 17:03:42,808 --pool-12-thread-2-- [com.avalon.ms.HttpClientUtil] http post request :POST http://localhost:8080/ms/city/code HTTP/1.1
+[INFO ] 2017-09-06 17:03:42,808 --pool-12-thread-1-- [com.avalon.ms.HttpClientUtil] http post request :POST http://localhost:8080/ms/city/code HTTP/1.1
+[INFO ] 2017-09-06 17:03:42,819 --pool-12-thread-3-- [com.avalon.ms.HttpClientUtil] http post request :POST http://localhost:8080/ms/city/code HTTP/1.1
+[INFO ] 2017-09-06 17:03:42,820 --pool-12-thread-4-- [com.avalon.ms.HttpClientUtil] http post request :POST http://localhost:8080/ms/city/code HTTP/1.1
+[INFO ] 2017-09-06 17:03:47,827 --pool-12-thread-3-- [com.avalon.ms.HttpClientUtil] httpclient close!
 [INFO ] 2017-09-06 17:03:47,827 --pool-12-thread-3-- [com.avalon.ms.schedule.task.service.PrintService] http response 200 
 [INFO ] 2017-09-06 17:03:47,827 --pool-12-thread-3-- [com.avalon.ms.schedule.task.service.PrintService] http response content {city:2} 
-[INFO ] 2017-09-06 17:03:47,834 --pool-12-thread-1-- [com.avalon.ms.common.util.HttpClientUtil] httpclient close! 
+[INFO ] 2017-09-06 17:03:47,834 --pool-12-thread-1-- [com.avalon.ms.HttpClientUtil] httpclient close!
 [INFO ] 2017-09-06 17:03:47,835 --pool-12-thread-1-- [com.avalon.ms.schedule.task.service.PrintService] http response 200 
 [INFO ] 2017-09-06 17:03:47,835 --pool-12-thread-1-- [com.avalon.ms.schedule.task.service.PrintService] http response content {city:0} 
-[INFO ] 2017-09-06 17:03:47,840 --pool-12-thread-4-- [com.avalon.ms.common.util.HttpClientUtil] httpclient close! 
+[INFO ] 2017-09-06 17:03:47,840 --pool-12-thread-4-- [com.avalon.ms.HttpClientUtil] httpclient close!
 [INFO ] 2017-09-06 17:03:47,841 --pool-12-thread-4-- [com.avalon.ms.schedule.task.service.PrintService] http response 200 
 [INFO ] 2017-09-06 17:03:47,841 --pool-12-thread-4-- [com.avalon.ms.schedule.task.service.PrintService] http response content {city:3} 
-[INFO ] 2017-09-06 17:03:47,845 --pool-12-thread-3-- [com.avalon.ms.common.util.HttpClientUtil] http post request :POST http://localhost:8080/ms/city/code HTTP/1.1 
-[INFO ] 2017-09-06 17:03:47,877 --pool-12-thread-2-- [com.avalon.ms.common.util.HttpClientUtil] httpclient close! 
+[INFO ] 2017-09-06 17:03:47,845 --pool-12-thread-3-- [com.avalon.ms.HttpClientUtil] http post request :POST http://localhost:8080/ms/city/code HTTP/1.1
+[INFO ] 2017-09-06 17:03:47,877 --pool-12-thread-2-- [com.avalon.ms.HttpClientUtil] httpclient close!
 [INFO ] 2017-09-06 17:03:47,877 --pool-12-thread-2-- [com.avalon.ms.schedule.task.service.PrintService] http response 200 
 [INFO ] 2017-09-06 17:03:47,877 --pool-12-thread-2-- [com.avalon.ms.schedule.task.service.PrintService] http response content {city:1} 
-[INFO ] 2017-09-06 17:04:17,848 --pool-12-thread-3-- [com.avalon.ms.common.util.HttpClientUtil] httpclient close! 
+[INFO ] 2017-09-06 17:04:17,848 --pool-12-thread-3-- [com.avalon.ms.HttpClientUtil] httpclient close!
 [INFO ] 2017-09-06 17:04:17,850 --pool-1-thread-3-- [com.avalon.ms.schedule.task.service.PrintService] print task end! 
 [INFO ] 2017-09-06 17:05:17,853 --pool-1-thread-3-- [com.avalon.ms.schedule.task.service.PrintService] print task start! size 5 
-[INFO ] 2017-09-06 17:05:17,893 --pool-13-thread-3-- [com.avalon.ms.common.util.HttpClientUtil] http post request :POST http://localhost:8080/ms/city/code HTTP/1.1 
-[INFO ] 2017-09-06 17:05:17,894 --pool-13-thread-2-- [com.avalon.ms.common.util.HttpClientUtil] http post request :POST http://localhost:8080/ms/city/code HTTP/1.1 
-[INFO ] 2017-09-06 17:05:17,897 --pool-13-thread-1-- [com.avalon.ms.common.util.HttpClientUtil] http post request :POST http://localhost:8080/ms/city/code HTTP/1.1 
-[INFO ] 2017-09-06 17:05:17,900 --pool-13-thread-4-- [com.avalon.ms.common.util.HttpClientUtil] http post request :POST http://localhost:8080/ms/city/code HTTP/1.1 
-[INFO ] 2017-09-06 17:05:22,914 --pool-13-thread-2-- [com.avalon.ms.common.util.HttpClientUtil] httpclient close! 
-[INFO ] 2017-09-06 17:05:22,914 --pool-13-thread-1-- [com.avalon.ms.common.util.HttpClientUtil] httpclient close! 
+[INFO ] 2017-09-06 17:05:17,893 --pool-13-thread-3-- [com.avalon.ms.HttpClientUtil] http post request :POST http://localhost:8080/ms/city/code HTTP/1.1
+[INFO ] 2017-09-06 17:05:17,894 --pool-13-thread-2-- [com.avalon.ms.HttpClientUtil] http post request :POST http://localhost:8080/ms/city/code HTTP/1.1
+[INFO ] 2017-09-06 17:05:17,897 --pool-13-thread-1-- [com.avalon.ms.HttpClientUtil] http post request :POST http://localhost:8080/ms/city/code HTTP/1.1
+[INFO ] 2017-09-06 17:05:17,900 --pool-13-thread-4-- [com.avalon.ms.HttpClientUtil] http post request :POST http://localhost:8080/ms/city/code HTTP/1.1
+[INFO ] 2017-09-06 17:05:22,914 --pool-13-thread-2-- [com.avalon.ms.HttpClientUtil] httpclient close!
+[INFO ] 2017-09-06 17:05:22,914 --pool-13-thread-1-- [com.avalon.ms.HttpClientUtil] httpclient close!
 [INFO ] 2017-09-06 17:05:22,914 --pool-13-thread-2-- [com.avalon.ms.schedule.task.service.PrintService] http response 200 
 [INFO ] 2017-09-06 17:05:22,914 --pool-13-thread-1-- [com.avalon.ms.schedule.task.service.PrintService] http response 200 
 [INFO ] 2017-09-06 17:05:22,914 --pool-13-thread-2-- [com.avalon.ms.schedule.task.service.PrintService] http response content {city:2} 
 [INFO ] 2017-09-06 17:05:22,914 --pool-13-thread-1-- [com.avalon.ms.schedule.task.service.PrintService] http response content {city:0} 
-[INFO ] 2017-09-06 17:05:22,915 --pool-13-thread-4-- [com.avalon.ms.common.util.HttpClientUtil] httpclient close! 
+[INFO ] 2017-09-06 17:05:22,915 --pool-13-thread-4-- [com.avalon.ms.HttpClientUtil] httpclient close!
 [INFO ] 2017-09-06 17:05:22,915 --pool-13-thread-4-- [com.avalon.ms.schedule.task.service.PrintService] http response 200 
 [INFO ] 2017-09-06 17:05:22,916 --pool-13-thread-4-- [com.avalon.ms.schedule.task.service.PrintService] http response content {city:3} 
-[INFO ] 2017-09-06 17:05:22,926 --pool-13-thread-3-- [com.avalon.ms.common.util.HttpClientUtil] httpclient close! 
+[INFO ] 2017-09-06 17:05:22,926 --pool-13-thread-3-- [com.avalon.ms.HttpClientUtil] httpclient close!
 [INFO ] 2017-09-06 17:05:22,926 --pool-13-thread-3-- [com.avalon.ms.schedule.task.service.PrintService] http response 200 
 [INFO ] 2017-09-06 17:05:22,927 --pool-13-thread-3-- [com.avalon.ms.schedule.task.service.PrintService] http response content {city:1} 
-[INFO ] 2017-09-06 17:05:22,932 --pool-13-thread-2-- [com.avalon.ms.common.util.HttpClientUtil] http post request :POST http://localhost:8080/ms/city/code HTTP/1.1 
-[INFO ] 2017-09-06 17:05:52,936 --pool-13-thread-2-- [com.avalon.ms.common.util.HttpClientUtil] httpclient close! 
+[INFO ] 2017-09-06 17:05:22,932 --pool-13-thread-2-- [com.avalon.ms.HttpClientUtil] http post request :POST http://localhost:8080/ms/city/code HTTP/1.1
+[INFO ] 2017-09-06 17:05:52,936 --pool-13-thread-2-- [com.avalon.ms.HttpClientUtil] httpclient close!
 [INFO ] 2017-09-06 17:05:52,938 --pool-1-thread-3-- [com.avalon.ms.schedule.task.service.PrintService] print task end! 
 [INFO ] 2017-09-06 17:06:52,938 --pool-1-thread-3-- [com.avalon.ms.schedule.task.service.PrintService] print task start! size 5 
-[INFO ] 2017-09-06 17:06:52,961 --pool-14-thread-2-- [com.avalon.ms.common.util.HttpClientUtil] http post request :POST http://localhost:8080/ms/city/code HTTP/1.1 
-[INFO ] 2017-09-06 17:06:52,967 --pool-14-thread-1-- [com.avalon.ms.common.util.HttpClientUtil] http post request :POST http://localhost:8080/ms/city/code HTTP/1.1 
-[INFO ] 2017-09-06 17:06:52,971 --pool-14-thread-4-- [com.avalon.ms.common.util.HttpClientUtil] http post request :POST http://localhost:8080/ms/city/code HTTP/1.1 
-[INFO ] 2017-09-06 17:06:52,972 --pool-14-thread-3-- [com.avalon.ms.common.util.HttpClientUtil] http post request :POST http://localhost:8080/ms/city/code HTTP/1.1 
-[INFO ] 2017-09-06 17:06:57,988 --pool-14-thread-1-- [com.avalon.ms.common.util.HttpClientUtil] httpclient close! 
-[INFO ] 2017-09-06 17:06:57,988 --pool-14-thread-4-- [com.avalon.ms.common.util.HttpClientUtil] httpclient close! 
+[INFO ] 2017-09-06 17:06:52,961 --pool-14-thread-2-- [com.avalon.ms.HttpClientUtil] http post request :POST http://localhost:8080/ms/city/code HTTP/1.1
+[INFO ] 2017-09-06 17:06:52,967 --pool-14-thread-1-- [com.avalon.ms.HttpClientUtil] http post request :POST http://localhost:8080/ms/city/code HTTP/1.1
+[INFO ] 2017-09-06 17:06:52,971 --pool-14-thread-4-- [com.avalon.ms.HttpClientUtil] http post request :POST http://localhost:8080/ms/city/code HTTP/1.1
+[INFO ] 2017-09-06 17:06:52,972 --pool-14-thread-3-- [com.avalon.ms.HttpClientUtil] http post request :POST http://localhost:8080/ms/city/code HTTP/1.1
+[INFO ] 2017-09-06 17:06:57,988 --pool-14-thread-1-- [com.avalon.ms.HttpClientUtil] httpclient close!
+[INFO ] 2017-09-06 17:06:57,988 --pool-14-thread-4-- [com.avalon.ms.HttpClientUtil] httpclient close!
 [INFO ] 2017-09-06 17:06:57,988 --pool-14-thread-1-- [com.avalon.ms.schedule.task.service.PrintService] http response 200 
 [INFO ] 2017-09-06 17:06:57,989 --pool-14-thread-4-- [com.avalon.ms.schedule.task.service.PrintService] http response 200 
 [INFO ] 2017-09-06 17:06:57,989 --pool-14-thread-1-- [com.avalon.ms.schedule.task.service.PrintService] http response content {city:0} 
 [INFO ] 2017-09-06 17:06:57,989 --pool-14-thread-4-- [com.avalon.ms.schedule.task.service.PrintService] http response content {city:3} 
-[INFO ] 2017-09-06 17:06:57,996 --pool-14-thread-2-- [com.avalon.ms.common.util.HttpClientUtil] httpclient close! 
+[INFO ] 2017-09-06 17:06:57,996 --pool-14-thread-2-- [com.avalon.ms.HttpClientUtil] httpclient close!
 [INFO ] 2017-09-06 17:06:57,997 --pool-14-thread-2-- [com.avalon.ms.schedule.task.service.PrintService] http response 200 
 [INFO ] 2017-09-06 17:06:57,997 --pool-14-thread-2-- [com.avalon.ms.schedule.task.service.PrintService] http response content {city:2} 
-[INFO ] 2017-09-06 17:06:57,999 --pool-14-thread-3-- [com.avalon.ms.common.util.HttpClientUtil] httpclient close! 
+[INFO ] 2017-09-06 17:06:57,999 --pool-14-thread-3-- [com.avalon.ms.HttpClientUtil] httpclient close!
 [INFO ] 2017-09-06 17:06:58,000 --pool-14-thread-3-- [com.avalon.ms.schedule.task.service.PrintService] http response 200 
 [INFO ] 2017-09-06 17:06:58,000 --pool-14-thread-3-- [com.avalon.ms.schedule.task.service.PrintService] http response content {city:1} 
-[INFO ] 2017-09-06 17:06:58,000 --pool-14-thread-1-- [com.avalon.ms.common.util.HttpClientUtil] http post request :POST http://localhost:8080/ms/city/code HTTP/1.1 
-[INFO ] 2017-09-06 17:07:28,004 --pool-14-thread-1-- [com.avalon.ms.common.util.HttpClientUtil] httpclient close! 
+[INFO ] 2017-09-06 17:06:58,000 --pool-14-thread-1-- [com.avalon.ms.HttpClientUtil] http post request :POST http://localhost:8080/ms/city/code HTTP/1.1
+[INFO ] 2017-09-06 17:07:28,004 --pool-14-thread-1-- [com.avalon.ms.HttpClientUtil] httpclient close!
 [INFO ] 2017-09-06 17:07:28,005 --pool-1-thread-3-- [com.avalon.ms.schedule.task.service.PrintService] print task end! 
 [INFO ] 2017-09-06 17:08:28,005 --pool-1-thread-2-- [com.avalon.ms.schedule.task.service.PrintService] print task start! size 5 
-[INFO ] 2017-09-06 17:08:28,034 --pool-15-thread-1-- [com.avalon.ms.common.util.HttpClientUtil] http post request :POST http://localhost:8080/ms/city/code HTTP/1.1 
-[INFO ] 2017-09-06 17:08:28,034 --pool-15-thread-4-- [com.avalon.ms.common.util.HttpClientUtil] http post request :POST http://localhost:8080/ms/city/code HTTP/1.1 
-[INFO ] 2017-09-06 17:08:28,041 --pool-15-thread-3-- [com.avalon.ms.common.util.HttpClientUtil] http post request :POST http://localhost:8080/ms/city/code HTTP/1.1 
-[INFO ] 2017-09-06 17:08:28,063 --pool-15-thread-2-- [com.avalon.ms.common.util.HttpClientUtil] http post request :POST http://localhost:8080/ms/city/code HTTP/1.1 
-[INFO ] 2017-09-06 17:08:33,050 --pool-15-thread-4-- [com.avalon.ms.common.util.HttpClientUtil] httpclient close! 
+[INFO ] 2017-09-06 17:08:28,034 --pool-15-thread-1-- [com.avalon.ms.HttpClientUtil] http post request :POST http://localhost:8080/ms/city/code HTTP/1.1
+[INFO ] 2017-09-06 17:08:28,034 --pool-15-thread-4-- [com.avalon.ms.HttpClientUtil] http post request :POST http://localhost:8080/ms/city/code HTTP/1.1
+[INFO ] 2017-09-06 17:08:28,041 --pool-15-thread-3-- [com.avalon.ms.HttpClientUtil] http post request :POST http://localhost:8080/ms/city/code HTTP/1.1
+[INFO ] 2017-09-06 17:08:28,063 --pool-15-thread-2-- [com.avalon.ms.HttpClientUtil] http post request :POST http://localhost:8080/ms/city/code HTTP/1.1
+[INFO ] 2017-09-06 17:08:33,050 --pool-15-thread-4-- [com.avalon.ms.HttpClientUtil] httpclient close!
 [INFO ] 2017-09-06 17:08:33,051 --pool-15-thread-4-- [com.avalon.ms.schedule.task.service.PrintService] http response 200 
 [INFO ] 2017-09-06 17:08:33,051 --pool-15-thread-4-- [com.avalon.ms.schedule.task.service.PrintService] http response content {city:3} 
-[INFO ] 2017-09-06 17:08:33,065 --pool-15-thread-1-- [com.avalon.ms.common.util.HttpClientUtil] httpclient close! 
+[INFO ] 2017-09-06 17:08:33,065 --pool-15-thread-1-- [com.avalon.ms.HttpClientUtil] httpclient close!
 [INFO ] 2017-09-06 17:08:33,065 --pool-15-thread-1-- [com.avalon.ms.schedule.task.service.PrintService] http response 200 
 [INFO ] 2017-09-06 17:08:33,066 --pool-15-thread-1-- [com.avalon.ms.schedule.task.service.PrintService] http response content {city:1} 
-[INFO ] 2017-09-06 17:08:33,077 --pool-15-thread-4-- [com.avalon.ms.common.util.HttpClientUtil] http post request :POST http://localhost:8080/ms/city/code HTTP/1.1 
-[INFO ] 2017-09-06 17:08:33,091 --pool-15-thread-2-- [com.avalon.ms.common.util.HttpClientUtil] httpclient close! 
+[INFO ] 2017-09-06 17:08:33,077 --pool-15-thread-4-- [com.avalon.ms.HttpClientUtil] http post request :POST http://localhost:8080/ms/city/code HTTP/1.1
+[INFO ] 2017-09-06 17:08:33,091 --pool-15-thread-2-- [com.avalon.ms.HttpClientUtil] httpclient close!
 [INFO ] 2017-09-06 17:08:33,091 --pool-15-thread-2-- [com.avalon.ms.schedule.task.service.PrintService] http response 200 
 [INFO ] 2017-09-06 17:08:33,091 --pool-15-thread-2-- [com.avalon.ms.schedule.task.service.PrintService] http response content {city:0} 
-[INFO ] 2017-09-06 17:08:33,137 --pool-15-thread-3-- [com.avalon.ms.common.util.HttpClientUtil] httpclient close! 
+[INFO ] 2017-09-06 17:08:33,137 --pool-15-thread-3-- [com.avalon.ms.HttpClientUtil] httpclient close!
 [INFO ] 2017-09-06 17:08:33,137 --pool-15-thread-3-- [com.avalon.ms.schedule.task.service.PrintService] http response 200 
 [INFO ] 2017-09-06 17:08:33,137 --pool-15-thread-3-- [com.avalon.ms.schedule.task.service.PrintService] http response content {city:2} 
-[INFO ] 2017-09-06 17:09:03,082 --pool-15-thread-4-- [com.avalon.ms.common.util.HttpClientUtil] httpclient close! 
+[INFO ] 2017-09-06 17:09:03,082 --pool-15-thread-4-- [com.avalon.ms.HttpClientUtil] httpclient close!
 [INFO ] 2017-09-06 17:09:03,098 --pool-1-thread-2-- [com.avalon.ms.schedule.task.service.PrintService] print task end! 
 [INFO ] 2017-09-06 17:10:03,100 --pool-1-thread-2-- [com.avalon.ms.schedule.task.service.PrintService] print task start! size 5 
-[INFO ] 2017-09-06 17:10:03,124 --pool-16-thread-1-- [com.avalon.ms.common.util.HttpClientUtil] http post request :POST http://localhost:8080/ms/city/code HTTP/1.1 
-[INFO ] 2017-09-06 17:10:03,129 --pool-16-thread-2-- [com.avalon.ms.common.util.HttpClientUtil] http post request :POST http://localhost:8080/ms/city/code HTTP/1.1 
-[INFO ] 2017-09-06 17:10:03,133 --pool-16-thread-4-- [com.avalon.ms.common.util.HttpClientUtil] http post request :POST http://localhost:8080/ms/city/code HTTP/1.1 
-[INFO ] 2017-09-06 17:10:03,133 --pool-16-thread-3-- [com.avalon.ms.common.util.HttpClientUtil] http post request :POST http://localhost:8080/ms/city/code HTTP/1.1 
-[INFO ] 2017-09-06 17:10:08,154 --pool-16-thread-1-- [com.avalon.ms.common.util.HttpClientUtil] httpclient close! 
+[INFO ] 2017-09-06 17:10:03,124 --pool-16-thread-1-- [com.avalon.ms.HttpClientUtil] http post request :POST http://localhost:8080/ms/city/code HTTP/1.1
+[INFO ] 2017-09-06 17:10:03,129 --pool-16-thread-2-- [com.avalon.ms.HttpClientUtil] http post request :POST http://localhost:8080/ms/city/code HTTP/1.1
+[INFO ] 2017-09-06 17:10:03,133 --pool-16-thread-4-- [com.avalon.ms.HttpClientUtil] http post request :POST http://localhost:8080/ms/city/code HTTP/1.1
+[INFO ] 2017-09-06 17:10:03,133 --pool-16-thread-3-- [com.avalon.ms.HttpClientUtil] http post request :POST http://localhost:8080/ms/city/code HTTP/1.1
+[INFO ] 2017-09-06 17:10:08,154 --pool-16-thread-1-- [com.avalon.ms.HttpClientUtil] httpclient close!
 [INFO ] 2017-09-06 17:10:08,154 --pool-16-thread-1-- [com.avalon.ms.schedule.task.service.PrintService] http response 200 
 [INFO ] 2017-09-06 17:10:08,154 --pool-16-thread-1-- [com.avalon.ms.schedule.task.service.PrintService] http response content {city:0} 
-[INFO ] 2017-09-06 17:10:08,159 --pool-16-thread-4-- [com.avalon.ms.common.util.HttpClientUtil] httpclient close! 
+[INFO ] 2017-09-06 17:10:08,159 --pool-16-thread-4-- [com.avalon.ms.HttpClientUtil] httpclient close!
 [INFO ] 2017-09-06 17:10:08,159 --pool-16-thread-4-- [com.avalon.ms.schedule.task.service.PrintService] http response 200 
 [INFO ] 2017-09-06 17:10:08,159 --pool-16-thread-4-- [com.avalon.ms.schedule.task.service.PrintService] http response content {city:3} 
-[INFO ] 2017-09-06 17:10:08,161 --pool-16-thread-2-- [com.avalon.ms.common.util.HttpClientUtil] httpclient close! 
+[INFO ] 2017-09-06 17:10:08,161 --pool-16-thread-2-- [com.avalon.ms.HttpClientUtil] httpclient close!
 [INFO ] 2017-09-06 17:10:08,161 --pool-16-thread-2-- [com.avalon.ms.schedule.task.service.PrintService] http response 200 
 [INFO ] 2017-09-06 17:10:08,161 --pool-16-thread-2-- [com.avalon.ms.schedule.task.service.PrintService] http response content {city:1} 
-[INFO ] 2017-09-06 17:10:08,162 --pool-16-thread-3-- [com.avalon.ms.common.util.HttpClientUtil] httpclient close! 
+[INFO ] 2017-09-06 17:10:08,162 --pool-16-thread-3-- [com.avalon.ms.HttpClientUtil] httpclient close!
 [INFO ] 2017-09-06 17:10:08,163 --pool-16-thread-3-- [com.avalon.ms.schedule.task.service.PrintService] http response 200 
 [INFO ] 2017-09-06 17:10:08,163 --pool-16-thread-3-- [com.avalon.ms.schedule.task.service.PrintService] http response content {city:2} 
-[INFO ] 2017-09-06 17:10:08,175 --pool-16-thread-1-- [com.avalon.ms.common.util.HttpClientUtil] http post request :POST http://localhost:8080/ms/city/code HTTP/1.1 
-[INFO ] 2017-09-06 17:10:38,177 --pool-16-thread-1-- [com.avalon.ms.common.util.HttpClientUtil] httpclient close! 
+[INFO ] 2017-09-06 17:10:08,175 --pool-16-thread-1-- [com.avalon.ms.HttpClientUtil] http post request :POST http://localhost:8080/ms/city/code HTTP/1.1
+[INFO ] 2017-09-06 17:10:38,177 --pool-16-thread-1-- [com.avalon.ms.HttpClientUtil] httpclient close!
 [INFO ] 2017-09-06 17:10:38,178 --pool-1-thread-2-- [com.avalon.ms.schedule.task.service.PrintService] print task end! 
 [INFO ] 2017-09-06 17:11:38,179 --pool-1-thread-2-- [com.avalon.ms.schedule.task.service.PrintService] print task start! size 5 
-[INFO ] 2017-09-06 17:11:38,211 --pool-17-thread-2-- [com.avalon.ms.common.util.HttpClientUtil] http post request :POST http://localhost:8080/ms/city/code HTTP/1.1 
-[INFO ] 2017-09-06 17:11:38,225 --pool-17-thread-1-- [com.avalon.ms.common.util.HttpClientUtil] http post request :POST http://localhost:8080/ms/city/code HTTP/1.1 
-[INFO ] 2017-09-06 17:11:38,238 --pool-17-thread-3-- [com.avalon.ms.common.util.HttpClientUtil] http post request :POST http://localhost:8080/ms/city/code HTTP/1.1 
-[INFO ] 2017-09-06 17:11:38,239 --pool-17-thread-4-- [com.avalon.ms.common.util.HttpClientUtil] http post request :POST http://localhost:8080/ms/city/code HTTP/1.1 
-[INFO ] 2017-09-06 17:11:43,233 --pool-17-thread-2-- [com.avalon.ms.common.util.HttpClientUtil] httpclient close! 
+[INFO ] 2017-09-06 17:11:38,211 --pool-17-thread-2-- [com.avalon.ms.HttpClientUtil] http post request :POST http://localhost:8080/ms/city/code HTTP/1.1
+[INFO ] 2017-09-06 17:11:38,225 --pool-17-thread-1-- [com.avalon.ms.HttpClientUtil] http post request :POST http://localhost:8080/ms/city/code HTTP/1.1
+[INFO ] 2017-09-06 17:11:38,238 --pool-17-thread-3-- [com.avalon.ms.HttpClientUtil] http post request :POST http://localhost:8080/ms/city/code HTTP/1.1
+[INFO ] 2017-09-06 17:11:38,239 --pool-17-thread-4-- [com.avalon.ms.HttpClientUtil] http post request :POST http://localhost:8080/ms/city/code HTTP/1.1
+[INFO ] 2017-09-06 17:11:43,233 --pool-17-thread-2-- [com.avalon.ms.HttpClientUtil] httpclient close!
 [INFO ] 2017-09-06 17:11:43,233 --pool-17-thread-2-- [com.avalon.ms.schedule.task.service.PrintService] http response 200 
-[INFO ] 2017-09-06 17:11:43,233 --pool-17-thread-1-- [com.avalon.ms.common.util.HttpClientUtil] httpclient close! 
+[INFO ] 2017-09-06 17:11:43,233 --pool-17-thread-1-- [com.avalon.ms.HttpClientUtil] httpclient close!
 [INFO ] 2017-09-06 17:11:43,233 --pool-17-thread-2-- [com.avalon.ms.schedule.task.service.PrintService] http response content {city:1} 
 [INFO ] 2017-09-06 17:11:43,233 --pool-17-thread-1-- [com.avalon.ms.schedule.task.service.PrintService] http response 200 
 [INFO ] 2017-09-06 17:11:43,233 --pool-17-thread-1-- [com.avalon.ms.schedule.task.service.PrintService] http response content {city:0} 
-[INFO ] 2017-09-06 17:11:43,259 --pool-17-thread-2-- [com.avalon.ms.common.util.HttpClientUtil] http post request :POST http://localhost:8080/ms/city/code HTTP/1.1 
-[INFO ] 2017-09-06 17:11:43,280 --pool-17-thread-4-- [com.avalon.ms.common.util.HttpClientUtil] httpclient close! 
+[INFO ] 2017-09-06 17:11:43,259 --pool-17-thread-2-- [com.avalon.ms.HttpClientUtil] http post request :POST http://localhost:8080/ms/city/code HTTP/1.1
+[INFO ] 2017-09-06 17:11:43,280 --pool-17-thread-4-- [com.avalon.ms.HttpClientUtil] httpclient close!
 [INFO ] 2017-09-06 17:11:43,280 --pool-17-thread-4-- [com.avalon.ms.schedule.task.service.PrintService] http response 200 
 [INFO ] 2017-09-06 17:11:43,280 --pool-17-thread-4-- [com.avalon.ms.schedule.task.service.PrintService] http response content {city:3} 
-[INFO ] 2017-09-06 17:11:43,281 --pool-17-thread-3-- [com.avalon.ms.common.util.HttpClientUtil] httpclient close! 
+[INFO ] 2017-09-06 17:11:43,281 --pool-17-thread-3-- [com.avalon.ms.HttpClientUtil] httpclient close!
 [INFO ] 2017-09-06 17:11:43,281 --pool-17-thread-3-- [com.avalon.ms.schedule.task.service.PrintService] http response 200 
 [INFO ] 2017-09-06 17:11:43,281 --pool-17-thread-3-- [com.avalon.ms.schedule.task.service.PrintService] http response content {city:2} 
-[INFO ] 2017-09-06 17:12:13,260 --pool-17-thread-2-- [com.avalon.ms.common.util.HttpClientUtil] httpclient close! 
+[INFO ] 2017-09-06 17:12:13,260 --pool-17-thread-2-- [com.avalon.ms.HttpClientUtil] httpclient close!
 [INFO ] 2017-09-06 17:12:13,261 --pool-1-thread-2-- [com.avalon.ms.schedule.task.service.PrintService] print task end! 
 [INFO ] 2017-09-06 17:13:13,275 --pool-1-thread-2-- [com.avalon.ms.schedule.task.service.PrintService] print task start! size 5 
-[INFO ] 2017-09-06 17:13:13,316 --pool-18-thread-2-- [com.avalon.ms.common.util.HttpClientUtil] http post request :POST http://localhost:8080/ms/city/code HTTP/1.1 
-[INFO ] 2017-09-06 17:13:13,316 --pool-18-thread-1-- [com.avalon.ms.common.util.HttpClientUtil] http post request :POST http://localhost:8080/ms/city/code HTTP/1.1 
-[INFO ] 2017-09-06 17:13:13,316 --pool-18-thread-3-- [com.avalon.ms.common.util.HttpClientUtil] http post request :POST http://localhost:8080/ms/city/code HTTP/1.1 
-[INFO ] 2017-09-06 17:13:13,327 --pool-18-thread-4-- [com.avalon.ms.common.util.HttpClientUtil] http post request :POST http://localhost:8080/ms/city/code HTTP/1.1 
-[INFO ] 2017-09-06 17:13:18,328 --pool-18-thread-1-- [com.avalon.ms.common.util.HttpClientUtil] httpclient close! 
+[INFO ] 2017-09-06 17:13:13,316 --pool-18-thread-2-- [com.avalon.ms.HttpClientUtil] http post request :POST http://localhost:8080/ms/city/code HTTP/1.1
+[INFO ] 2017-09-06 17:13:13,316 --pool-18-thread-1-- [com.avalon.ms.HttpClientUtil] http post request :POST http://localhost:8080/ms/city/code HTTP/1.1
+[INFO ] 2017-09-06 17:13:13,316 --pool-18-thread-3-- [com.avalon.ms.HttpClientUtil] http post request :POST http://localhost:8080/ms/city/code HTTP/1.1
+[INFO ] 2017-09-06 17:13:13,327 --pool-18-thread-4-- [com.avalon.ms.HttpClientUtil] http post request :POST http://localhost:8080/ms/city/code HTTP/1.1
+[INFO ] 2017-09-06 17:13:18,328 --pool-18-thread-1-- [com.avalon.ms.HttpClientUtil] httpclient close!
 [INFO ] 2017-09-06 17:13:18,328 --pool-18-thread-1-- [com.avalon.ms.schedule.task.service.PrintService] http response 200 
 [INFO ] 2017-09-06 17:13:18,328 --pool-18-thread-1-- [com.avalon.ms.schedule.task.service.PrintService] http response content {city:1} 
-[INFO ] 2017-09-06 17:13:18,329 --pool-18-thread-3-- [com.avalon.ms.common.util.HttpClientUtil] httpclient close! 
+[INFO ] 2017-09-06 17:13:18,329 --pool-18-thread-3-- [com.avalon.ms.HttpClientUtil] httpclient close!
 [INFO ] 2017-09-06 17:13:18,329 --pool-18-thread-3-- [com.avalon.ms.schedule.task.service.PrintService] http response 200 
 [INFO ] 2017-09-06 17:13:18,329 --pool-18-thread-3-- [com.avalon.ms.schedule.task.service.PrintService] http response content {city:2} 
-[INFO ] 2017-09-06 17:13:18,332 --pool-18-thread-1-- [com.avalon.ms.common.util.HttpClientUtil] http post request :POST http://localhost:8080/ms/city/code HTTP/1.1 
-[INFO ] 2017-09-06 17:13:18,370 --pool-18-thread-2-- [com.avalon.ms.common.util.HttpClientUtil] httpclient close! 
-[INFO ] 2017-09-06 17:13:18,370 --pool-18-thread-4-- [com.avalon.ms.common.util.HttpClientUtil] httpclient close! 
+[INFO ] 2017-09-06 17:13:18,332 --pool-18-thread-1-- [com.avalon.ms.HttpClientUtil] http post request :POST http://localhost:8080/ms/city/code HTTP/1.1
+[INFO ] 2017-09-06 17:13:18,370 --pool-18-thread-2-- [com.avalon.ms.HttpClientUtil] httpclient close!
+[INFO ] 2017-09-06 17:13:18,370 --pool-18-thread-4-- [com.avalon.ms.HttpClientUtil] httpclient close!
 [INFO ] 2017-09-06 17:13:18,370 --pool-18-thread-2-- [com.avalon.ms.schedule.task.service.PrintService] http response 200 
 [INFO ] 2017-09-06 17:13:18,370 --pool-18-thread-4-- [com.avalon.ms.schedule.task.service.PrintService] http response 200 
 [INFO ] 2017-09-06 17:13:18,370 --pool-18-thread-2-- [com.avalon.ms.schedule.task.service.PrintService] http response content {city:0} 
 [INFO ] 2017-09-06 17:13:18,370 --pool-18-thread-4-- [com.avalon.ms.schedule.task.service.PrintService] http response content {city:3} 
-[INFO ] 2017-09-06 17:13:48,339 --pool-18-thread-1-- [com.avalon.ms.common.util.HttpClientUtil] httpclient close! 
+[INFO ] 2017-09-06 17:13:48,339 --pool-18-thread-1-- [com.avalon.ms.HttpClientUtil] httpclient close!
 [INFO ] 2017-09-06 17:13:48,340 --pool-1-thread-2-- [com.avalon.ms.schedule.task.service.PrintService] print task end! 
 [INFO ] 2017-09-06 17:14:48,377 --pool-1-thread-2-- [com.avalon.ms.schedule.task.service.PrintService] print task start! size 5 
-[INFO ] 2017-09-06 17:14:48,414 --pool-19-thread-3-- [com.avalon.ms.common.util.HttpClientUtil] http post request :POST http://localhost:8080/ms/city/code HTTP/1.1 
-[INFO ] 2017-09-06 17:14:48,414 --pool-19-thread-1-- [com.avalon.ms.common.util.HttpClientUtil] http post request :POST http://localhost:8080/ms/city/code HTTP/1.1 
-[INFO ] 2017-09-06 17:14:48,420 --pool-19-thread-4-- [com.avalon.ms.common.util.HttpClientUtil] http post request :POST http://localhost:8080/ms/city/code HTTP/1.1 
-[INFO ] 2017-09-06 17:14:48,456 --pool-19-thread-2-- [com.avalon.ms.common.util.HttpClientUtil] http post request :POST http://localhost:8080/ms/city/code HTTP/1.1 
-[INFO ] 2017-09-06 17:14:53,450 --pool-19-thread-1-- [com.avalon.ms.common.util.HttpClientUtil] httpclient close! 
+[INFO ] 2017-09-06 17:14:48,414 --pool-19-thread-3-- [com.avalon.ms.HttpClientUtil] http post request :POST http://localhost:8080/ms/city/code HTTP/1.1
+[INFO ] 2017-09-06 17:14:48,414 --pool-19-thread-1-- [com.avalon.ms.HttpClientUtil] http post request :POST http://localhost:8080/ms/city/code HTTP/1.1
+[INFO ] 2017-09-06 17:14:48,420 --pool-19-thread-4-- [com.avalon.ms.HttpClientUtil] http post request :POST http://localhost:8080/ms/city/code HTTP/1.1
+[INFO ] 2017-09-06 17:14:48,456 --pool-19-thread-2-- [com.avalon.ms.HttpClientUtil] http post request :POST http://localhost:8080/ms/city/code HTTP/1.1
+[INFO ] 2017-09-06 17:14:53,450 --pool-19-thread-1-- [com.avalon.ms.HttpClientUtil] httpclient close!
 [INFO ] 2017-09-06 17:14:53,450 --pool-19-thread-1-- [com.avalon.ms.schedule.task.service.PrintService] http response 200 
-[INFO ] 2017-09-06 17:14:53,450 --pool-19-thread-4-- [com.avalon.ms.common.util.HttpClientUtil] httpclient close! 
+[INFO ] 2017-09-06 17:14:53,450 --pool-19-thread-4-- [com.avalon.ms.HttpClientUtil] httpclient close!
 [INFO ] 2017-09-06 17:14:53,451 --pool-19-thread-1-- [com.avalon.ms.schedule.task.service.PrintService] http response content {city:0} 
 [INFO ] 2017-09-06 17:14:53,451 --pool-19-thread-4-- [com.avalon.ms.schedule.task.service.PrintService] http response 200 
 [INFO ] 2017-09-06 17:14:53,451 --pool-19-thread-4-- [com.avalon.ms.schedule.task.service.PrintService] http response content {city:3} 
-[INFO ] 2017-09-06 17:14:53,455 --pool-19-thread-3-- [com.avalon.ms.common.util.HttpClientUtil] httpclient close! 
+[INFO ] 2017-09-06 17:14:53,455 --pool-19-thread-3-- [com.avalon.ms.HttpClientUtil] httpclient close!
 [INFO ] 2017-09-06 17:14:53,455 --pool-19-thread-3-- [com.avalon.ms.schedule.task.service.PrintService] http response 200 
 [INFO ] 2017-09-06 17:14:53,456 --pool-19-thread-3-- [com.avalon.ms.schedule.task.service.PrintService] http response content {city:2} 
-[INFO ] 2017-09-06 17:14:53,462 --pool-19-thread-2-- [com.avalon.ms.common.util.HttpClientUtil] httpclient close! 
+[INFO ] 2017-09-06 17:14:53,462 --pool-19-thread-2-- [com.avalon.ms.HttpClientUtil] httpclient close!
 [INFO ] 2017-09-06 17:14:53,462 --pool-19-thread-2-- [com.avalon.ms.schedule.task.service.PrintService] http response 200 
 [INFO ] 2017-09-06 17:14:53,462 --pool-19-thread-2-- [com.avalon.ms.schedule.task.service.PrintService] http response content {city:1} 
-[INFO ] 2017-09-06 17:14:53,473 --pool-19-thread-1-- [com.avalon.ms.common.util.HttpClientUtil] http post request :POST http://localhost:8080/ms/city/code HTTP/1.1 
-[INFO ] 2017-09-06 17:15:23,476 --pool-19-thread-1-- [com.avalon.ms.common.util.HttpClientUtil] httpclient close! 
+[INFO ] 2017-09-06 17:14:53,473 --pool-19-thread-1-- [com.avalon.ms.HttpClientUtil] http post request :POST http://localhost:8080/ms/city/code HTTP/1.1
+[INFO ] 2017-09-06 17:15:23,476 --pool-19-thread-1-- [com.avalon.ms.HttpClientUtil] httpclient close!
 [INFO ] 2017-09-06 17:15:23,506 --pool-1-thread-2-- [com.avalon.ms.schedule.task.service.PrintService] print task end! 
 [INFO ] 2017-09-06 17:16:23,507 --pool-1-thread-1-- [com.avalon.ms.schedule.task.service.PrintService] print task start! size 5 
-[INFO ] 2017-09-06 17:16:23,529 --pool-20-thread-3-- [com.avalon.ms.common.util.HttpClientUtil] http post request :POST http://localhost:8080/ms/city/code HTTP/1.1 
-[INFO ] 2017-09-06 17:16:23,530 --pool-20-thread-2-- [com.avalon.ms.common.util.HttpClientUtil] http post request :POST http://localhost:8080/ms/city/code HTTP/1.1 
-[INFO ] 2017-09-06 17:16:23,543 --pool-20-thread-4-- [com.avalon.ms.common.util.HttpClientUtil] http post request :POST http://localhost:8080/ms/city/code HTTP/1.1 
-[INFO ] 2017-09-06 17:16:23,545 --pool-20-thread-1-- [com.avalon.ms.common.util.HttpClientUtil] http post request :POST http://localhost:8080/ms/city/code HTTP/1.1 
-[INFO ] 2017-09-06 17:16:28,568 --pool-20-thread-2-- [com.avalon.ms.common.util.HttpClientUtil] httpclient close! 
-[INFO ] 2017-09-06 17:16:28,568 --pool-20-thread-4-- [com.avalon.ms.common.util.HttpClientUtil] httpclient close! 
+[INFO ] 2017-09-06 17:16:23,529 --pool-20-thread-3-- [com.avalon.ms.HttpClientUtil] http post request :POST http://localhost:8080/ms/city/code HTTP/1.1
+[INFO ] 2017-09-06 17:16:23,530 --pool-20-thread-2-- [com.avalon.ms.HttpClientUtil] http post request :POST http://localhost:8080/ms/city/code HTTP/1.1
+[INFO ] 2017-09-06 17:16:23,543 --pool-20-thread-4-- [com.avalon.ms.HttpClientUtil] http post request :POST http://localhost:8080/ms/city/code HTTP/1.1
+[INFO ] 2017-09-06 17:16:23,545 --pool-20-thread-1-- [com.avalon.ms.HttpClientUtil] http post request :POST http://localhost:8080/ms/city/code HTTP/1.1
+[INFO ] 2017-09-06 17:16:28,568 --pool-20-thread-2-- [com.avalon.ms.HttpClientUtil] httpclient close!
+[INFO ] 2017-09-06 17:16:28,568 --pool-20-thread-4-- [com.avalon.ms.HttpClientUtil] httpclient close!
 [INFO ] 2017-09-06 17:16:28,568 --pool-20-thread-2-- [com.avalon.ms.schedule.task.service.PrintService] http response 200 
 [INFO ] 2017-09-06 17:16:28,568 --pool-20-thread-4-- [com.avalon.ms.schedule.task.service.PrintService] http response 200 
 [INFO ] 2017-09-06 17:16:28,568 --pool-20-thread-2-- [com.avalon.ms.schedule.task.service.PrintService] http response content {city:0} 
 [INFO ] 2017-09-06 17:16:28,568 --pool-20-thread-4-- [com.avalon.ms.schedule.task.service.PrintService] http response content {city:3} 
-[INFO ] 2017-09-06 17:16:28,584 --pool-20-thread-2-- [com.avalon.ms.common.util.HttpClientUtil] http post request :POST http://localhost:8080/ms/city/code HTTP/1.1 
-[INFO ] 2017-09-06 17:16:28,591 --pool-20-thread-1-- [com.avalon.ms.common.util.HttpClientUtil] httpclient close! 
+[INFO ] 2017-09-06 17:16:28,584 --pool-20-thread-2-- [com.avalon.ms.HttpClientUtil] http post request :POST http://localhost:8080/ms/city/code HTTP/1.1
+[INFO ] 2017-09-06 17:16:28,591 --pool-20-thread-1-- [com.avalon.ms.HttpClientUtil] httpclient close!
 [INFO ] 2017-09-06 17:16:28,591 --pool-20-thread-1-- [com.avalon.ms.schedule.task.service.PrintService] http response 200 
 [INFO ] 2017-09-06 17:16:28,591 --pool-20-thread-1-- [com.avalon.ms.schedule.task.service.PrintService] http response content {city:2} 
-[INFO ] 2017-09-06 17:16:28,628 --pool-20-thread-3-- [com.avalon.ms.common.util.HttpClientUtil] httpclient close! 
+[INFO ] 2017-09-06 17:16:28,628 --pool-20-thread-3-- [com.avalon.ms.HttpClientUtil] httpclient close!
 [INFO ] 2017-09-06 17:16:28,628 --pool-20-thread-3-- [com.avalon.ms.schedule.task.service.PrintService] http response 200 
 [INFO ] 2017-09-06 17:16:28,628 --pool-20-thread-3-- [com.avalon.ms.schedule.task.service.PrintService] http response content {city:1} 
-[INFO ] 2017-09-06 17:16:58,585 --pool-20-thread-2-- [com.avalon.ms.common.util.HttpClientUtil] httpclient close! 
+[INFO ] 2017-09-06 17:16:58,585 --pool-20-thread-2-- [com.avalon.ms.HttpClientUtil] httpclient close!
 [INFO ] 2017-09-06 17:16:58,592 --pool-1-thread-1-- [com.avalon.ms.schedule.task.service.PrintService] print task end! 
 [INFO ] 2017-09-06 17:17:58,594 --pool-1-thread-1-- [com.avalon.ms.schedule.task.service.PrintService] print task start! size 5 
-[INFO ] 2017-09-06 17:17:58,684 --pool-21-thread-4-- [com.avalon.ms.common.util.HttpClientUtil] http post request :POST http://localhost:8080/ms/city/code HTTP/1.1 
-[INFO ] 2017-09-06 17:17:58,684 --pool-21-thread-2-- [com.avalon.ms.common.util.HttpClientUtil] http post request :POST http://localhost:8080/ms/city/code HTTP/1.1 
-[INFO ] 2017-09-06 17:17:58,684 --pool-21-thread-3-- [com.avalon.ms.common.util.HttpClientUtil] http post request :POST http://localhost:8080/ms/city/code HTTP/1.1 
-[INFO ] 2017-09-06 17:17:58,684 --pool-21-thread-1-- [com.avalon.ms.common.util.HttpClientUtil] http post request :POST http://localhost:8080/ms/city/code HTTP/1.1 
-[INFO ] 2017-09-06 17:18:03,699 --pool-21-thread-3-- [com.avalon.ms.common.util.HttpClientUtil] httpclient close! 
+[INFO ] 2017-09-06 17:17:58,684 --pool-21-thread-4-- [com.avalon.ms.HttpClientUtil] http post request :POST http://localhost:8080/ms/city/code HTTP/1.1
+[INFO ] 2017-09-06 17:17:58,684 --pool-21-thread-2-- [com.avalon.ms.HttpClientUtil] http post request :POST http://localhost:8080/ms/city/code HTTP/1.1
+[INFO ] 2017-09-06 17:17:58,684 --pool-21-thread-3-- [com.avalon.ms.HttpClientUtil] http post request :POST http://localhost:8080/ms/city/code HTTP/1.1
+[INFO ] 2017-09-06 17:17:58,684 --pool-21-thread-1-- [com.avalon.ms.HttpClientUtil] http post request :POST http://localhost:8080/ms/city/code HTTP/1.1
+[INFO ] 2017-09-06 17:18:03,699 --pool-21-thread-3-- [com.avalon.ms.HttpClientUtil] httpclient close!
 [INFO ] 2017-09-06 17:18:03,699 --pool-21-thread-3-- [com.avalon.ms.schedule.task.service.PrintService] http response 200 
 [INFO ] 2017-09-06 17:18:03,699 --pool-21-thread-3-- [com.avalon.ms.schedule.task.service.PrintService] http response content {city:2} 
-[INFO ] 2017-09-06 17:18:03,699 --pool-21-thread-1-- [com.avalon.ms.common.util.HttpClientUtil] httpclient close! 
+[INFO ] 2017-09-06 17:18:03,699 --pool-21-thread-1-- [com.avalon.ms.HttpClientUtil] httpclient close!
 [INFO ] 2017-09-06 17:18:03,699 --pool-21-thread-1-- [com.avalon.ms.schedule.task.service.PrintService] http response 200 
 [INFO ] 2017-09-06 17:18:03,699 --pool-21-thread-1-- [com.avalon.ms.schedule.task.service.PrintService] http response content {city:0} 
-[INFO ] 2017-09-06 17:18:03,700 --pool-21-thread-4-- [com.avalon.ms.common.util.HttpClientUtil] httpclient close! 
+[INFO ] 2017-09-06 17:18:03,700 --pool-21-thread-4-- [com.avalon.ms.HttpClientUtil] httpclient close!
 [INFO ] 2017-09-06 17:18:03,700 --pool-21-thread-4-- [com.avalon.ms.schedule.task.service.PrintService] http response 200 
 [INFO ] 2017-09-06 17:18:03,700 --pool-21-thread-4-- [com.avalon.ms.schedule.task.service.PrintService] http response content {city:3} 
-[INFO ] 2017-09-06 17:18:03,723 --pool-21-thread-3-- [com.avalon.ms.common.util.HttpClientUtil] http post request :POST http://localhost:8080/ms/city/code HTTP/1.1 
-[INFO ] 2017-09-06 17:18:03,749 --pool-21-thread-2-- [com.avalon.ms.common.util.HttpClientUtil] httpclient close! 
+[INFO ] 2017-09-06 17:18:03,723 --pool-21-thread-3-- [com.avalon.ms.HttpClientUtil] http post request :POST http://localhost:8080/ms/city/code HTTP/1.1
+[INFO ] 2017-09-06 17:18:03,749 --pool-21-thread-2-- [com.avalon.ms.HttpClientUtil] httpclient close!
 [INFO ] 2017-09-06 17:18:03,749 --pool-21-thread-2-- [com.avalon.ms.schedule.task.service.PrintService] http response 200 
 [INFO ] 2017-09-06 17:18:03,749 --pool-21-thread-2-- [com.avalon.ms.schedule.task.service.PrintService] http response content {city:1} 
-[INFO ] 2017-09-06 17:18:33,727 --pool-21-thread-3-- [com.avalon.ms.common.util.HttpClientUtil] httpclient close! 
+[INFO ] 2017-09-06 17:18:33,727 --pool-21-thread-3-- [com.avalon.ms.HttpClientUtil] httpclient close!
 [INFO ] 2017-09-06 17:18:33,727 --pool-1-thread-1-- [com.avalon.ms.schedule.task.service.PrintService] print task end! 
 [INFO ] 2017-09-06 17:19:33,727 --pool-1-thread-1-- [com.avalon.ms.schedule.task.service.PrintService] print task start! size 5 
-[INFO ] 2017-09-06 17:19:33,750 --pool-22-thread-3-- [com.avalon.ms.common.util.HttpClientUtil] http post request :POST http://localhost:8080/ms/city/code HTTP/1.1 
-[INFO ] 2017-09-06 17:19:33,752 --pool-22-thread-2-- [com.avalon.ms.common.util.HttpClientUtil] http post request :POST http://localhost:8080/ms/city/code HTTP/1.1 
-[INFO ] 2017-09-06 17:19:33,757 --pool-22-thread-4-- [com.avalon.ms.common.util.HttpClientUtil] http post request :POST http://localhost:8080/ms/city/code HTTP/1.1 
-[INFO ] 2017-09-06 17:19:33,761 --pool-22-thread-1-- [com.avalon.ms.common.util.HttpClientUtil] http post request :POST http://localhost:8080/ms/city/code HTTP/1.1 
-[INFO ] 2017-09-06 17:19:36,869 --pool-22-thread-2-- [com.avalon.ms.common.util.HttpClientUtil] httpclient close! 
-[INFO ] 2017-09-06 17:19:36,909 --pool-22-thread-4-- [com.avalon.ms.common.util.HttpClientUtil] httpclient close! 
-[INFO ] 2017-09-06 17:19:36,910 --pool-22-thread-3-- [com.avalon.ms.common.util.HttpClientUtil] httpclient close! 
-[INFO ] 2017-09-06 17:19:36,912 --pool-22-thread-1-- [com.avalon.ms.common.util.HttpClientUtil] httpclient close! 
-[INFO ] 2017-09-06 17:19:36,963 --pool-22-thread-4-- [com.avalon.ms.common.util.HttpClientUtil] http post request :POST http://localhost:8080/ms/city/code HTTP/1.1 
-[INFO ] 2017-09-06 17:19:39,020 --pool-22-thread-4-- [com.avalon.ms.common.util.HttpClientUtil] httpclient close! 
+[INFO ] 2017-09-06 17:19:33,750 --pool-22-thread-3-- [com.avalon.ms.HttpClientUtil] http post request :POST http://localhost:8080/ms/city/code HTTP/1.1
+[INFO ] 2017-09-06 17:19:33,752 --pool-22-thread-2-- [com.avalon.ms.HttpClientUtil] http post request :POST http://localhost:8080/ms/city/code HTTP/1.1
+[INFO ] 2017-09-06 17:19:33,757 --pool-22-thread-4-- [com.avalon.ms.HttpClientUtil] http post request :POST http://localhost:8080/ms/city/code HTTP/1.1
+[INFO ] 2017-09-06 17:19:33,761 --pool-22-thread-1-- [com.avalon.ms.HttpClientUtil] http post request :POST http://localhost:8080/ms/city/code HTTP/1.1
+[INFO ] 2017-09-06 17:19:36,869 --pool-22-thread-2-- [com.avalon.ms.HttpClientUtil] httpclient close!
+[INFO ] 2017-09-06 17:19:36,909 --pool-22-thread-4-- [com.avalon.ms.HttpClientUtil] httpclient close!
+[INFO ] 2017-09-06 17:19:36,910 --pool-22-thread-3-- [com.avalon.ms.HttpClientUtil] httpclient close!
+[INFO ] 2017-09-06 17:19:36,912 --pool-22-thread-1-- [com.avalon.ms.HttpClientUtil] httpclient close!
+[INFO ] 2017-09-06 17:19:36,963 --pool-22-thread-4-- [com.avalon.ms.HttpClientUtil] http post request :POST http://localhost:8080/ms/city/code HTTP/1.1
+[INFO ] 2017-09-06 17:19:39,020 --pool-22-thread-4-- [com.avalon.ms.HttpClientUtil] httpclient close!
 [INFO ] 2017-09-06 17:19:39,021 --pool-1-thread-1-- [com.avalon.ms.schedule.task.service.PrintService] print task end! 
