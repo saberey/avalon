@@ -33,7 +33,7 @@
         <redisson.version>3.13.6</redisson.version>
         <hessian.version>4.0.38</hessian.version>
         <guava.version>29.0-jre</guava.version>
-        <junit.version>4.12</junit.version>
+        <junit.version>4.13.1</junit.version>
         <servlet.version>3.1.0</servlet.version>
         <jsp-api.version>2.2.1-b03</jsp-api.version>
         <netty.version>4.1.50.Final</netty.version>
