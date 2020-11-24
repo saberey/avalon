@@ -19,7 +19,7 @@ import org.slf4j.LoggerFactory;
  * 如果不用threadlocal保存状态，会出现多个线程在等待同步变更方法时boolean可能已经被变更过了，
  * 如果继续放任这几个线程继续执行同步变更方法，会到只boolean继续被变更，从而导致boolean会被不正确的变更，
  * 所以通过threadlocal保存状态，判断如果本线程的保存状态与当前状态不一致则不执行同步变更方法。
- *@description:TODO
+ *@descriptionTODO
  *@author saber
  *@date 2017年9月19日 下午3:27:03
  *@version

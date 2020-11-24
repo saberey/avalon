@@ -7,7 +7,7 @@ import java.util.concurrent.atomic.AtomicLong;
 import java.util.logging.Logger;
 
 /**
- *@description:TODO
+ *@descriptionTODO
  *@author saber
  *@date 2017年11月16日 下午5:33:43
  *@version

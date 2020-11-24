@@ -8,7 +8,7 @@ import java.util.UUID;
 import java.util.concurrent.TimeUnit;
 
 /**
- *@description:TODO
+ *@descriptionTODO
  *@author saber
  *@date 2017年12月4日 上午10:34:06
  *@version

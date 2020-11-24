@@ -14,7 +14,7 @@ import org.slf4j.Logger;
 import org.slf4j.LoggerFactory;
 
 /**
- *@description:TODO
+ *@descriptionTODO
  *@author saber
  *@date 2018年4月17日 上午10:04:20
  *@version
@@ -126,14 +126,14 @@ public class RandomAccessFileTest {
 	
 	/**
 	 * 指定位置插入内容
-	 * @description:TODO
+	 * @descriptionTODO
 	 * @param raf
 	 * @param point
 	 * @param content
 	 * @throws Exception
 	 * void
 	 * @exception:
-	 * @author:saber
+	 * @authorsaber
 	 * @time:2018年4月17日下午3:07:59
 	 */
 	public void insert(RandomAccessFile raf,long point,String content) throws Exception{
@@ -148,13 +148,13 @@ public class RandomAccessFileTest {
 	
 	/**
 	 * 从临时文件中读取内从写入目标文件中
-	 * @description:TODO
+	 * @descriptionTODO
 	 * @param tmp
 	 * @param raf
 	 * @param fis
 	 * void
 	 * @exception:
-	 * @author:saber
+	 * @authorsaber
 	 * @throws IOException 
 	 * @time:2018年4月17日下午2:50:48
 	 */
@@ -172,7 +172,7 @@ public class RandomAccessFileTest {
 	
 	/**
 	 * point的内容保存到临时文件中
-	 * @description:TODO
+	 * @descriptionTODO
 	 * @param file2
 	 * @param tmp
 	 * @param raf
@@ -180,7 +180,7 @@ public class RandomAccessFileTest {
 	 * @param fos
 	 * void
 	 * @exception:
-	 * @author:saber
+	 * @authorsaber
 	 * @throws IOException 
 	 * @time:2018年4月17日下午2:50:15
 	 */

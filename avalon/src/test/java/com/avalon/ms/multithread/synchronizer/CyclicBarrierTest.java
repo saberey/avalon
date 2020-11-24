@@ -4,7 +4,7 @@ import java.util.concurrent.BrokenBarrierException;
 import java.util.concurrent.CyclicBarrier;
 
 /**
- *@description:TODO
+ *@descriptionTODO
  *@author saber
  *@date 2017年12月21日 上午11:34:00
  *@version

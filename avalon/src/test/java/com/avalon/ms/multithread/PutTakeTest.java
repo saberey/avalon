@@ -9,7 +9,7 @@ import com.avalon.ms.multithread.synchronizer.BoundedBuffer;
 
 import static org.junit.Assert.*;
 /**
- *@description:TODO
+ *@descriptionTODO
  *@author saber
  *@date 2017年12月14日 下午3:02:56
  *@version

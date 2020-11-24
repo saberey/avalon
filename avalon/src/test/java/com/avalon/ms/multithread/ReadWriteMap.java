@@ -6,7 +6,7 @@ import java.util.concurrent.locks.ReadWriteLock;
 import java.util.concurrent.locks.ReentrantReadWriteLock;
 
 /**
- *@description:TODO
+ *@descriptionTODO
  *@author saber
  *@date 2017年12月20日 下午3:57:49
  *@version

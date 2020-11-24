@@ -1,6 +1,6 @@
 package com.avalon.ms.common.constants;
 /**
- *@description:TODO
+ *@descriptionTODO
  *@author saber
  *@date 2018年1月26日 下午2:11:26
  *@version

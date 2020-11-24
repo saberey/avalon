@@ -3,7 +3,7 @@ package com.avalon.ms.bean;
 import java.io.Serializable;
 
 /**
- *@description:TODO
+ *@descriptionTODO
  *@author saber
  *@date 2017年11月24日 下午2:43:00
  *@version

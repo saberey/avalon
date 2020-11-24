@@ -4,7 +4,7 @@ import java.util.Arrays;
 import java.util.concurrent.ThreadLocalRandom;
 
 /**
- *@description:TODO
+ *@descriptionTODO
  *@author saber
  *@date 2017年9月25日 下午5:40:50
  *@version

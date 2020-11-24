@@ -4,7 +4,7 @@ import com.avalon.ms.multithread.exception.BufferEmptyException;
 import com.avalon.ms.multithread.exception.BufferFullException;
 
 /**
- *@description:TODO
+ *@descriptionTODO
  *@author saber
  *@date 2017年12月21日 下午3:27:30
  *@version

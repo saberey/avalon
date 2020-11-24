@@ -3,7 +3,7 @@ package com.avalon.ms.multithread.synchronizer;
 import com.avalon.ms.multithread.constants.ThreadConstants;
 
 /**
- *@description:TODO
+ *@descriptionTODO
  *@author saber
  *@date 2017年12月21日 下午3:38:56
  *@version

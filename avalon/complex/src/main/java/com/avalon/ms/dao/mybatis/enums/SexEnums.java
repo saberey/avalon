@@ -1,7 +1,7 @@
 package com.avalon.ms.dao.mybatis.enums;
 
 /**
- *@description:TODO
+ *@descriptionTODO
  *@author saber
  *@date 2017年10月9日 下午1:18:24
  *@version

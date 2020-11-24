@@ -26,7 +26,7 @@ import com.avalon.ms.dao.entity.PageParams;
 
 
 /**
- *@description:TODO
+ *@descriptionTODO
  *@author saber
  *@date 2017年10月31日 下午7:32:33
  *@version
@@ -78,12 +78,12 @@ public class PagingPlugin  implements Interceptor{
 	
 	/**
 	 * 从代理对象中分离真实对象
-	 * @description:TODO
+	 * @descriptionTODO
 	 * @param ivt
 	 * @return
 	 * StatementHandler
 	 * @exception:
-	 * @author: saber
+	 * @author saber
 	 * @time:2017年11月1日上午11:06:59
 	 */
 	private StatementHandler getUnProxyObject(Invocation ivt){
@@ -103,7 +103,7 @@ public class PagingPlugin  implements Interceptor{
 	
 	/**
 	 * 判断是否select语句
-	 * @description:TODO
+	 * @descriptionTODO
 	 * @param sql
 	 * @return
 	 * boolean
@@ -119,12 +119,12 @@ public class PagingPlugin  implements Interceptor{
 	
 	/**
 	 * 分解分页参数，这里支持使用Map和@Param注解传递参数，或者pojo集成pageParams
-	 * @description:TODO
+	 * @descriptionTODO
 	 * @param parameterObject
 	 * @return
 	 * PageParams
 	 * @exception:
-	 * @author: saber
+	 * @author saber
 	 * @time:2017年11月1日下午2:02:47
 	 */
 	private PageParams getPageParams(Object parameterObject){
@@ -198,14 +198,14 @@ public class PagingPlugin  implements Interceptor{
 	
 	/**
 	 * 检查当前页码的有效性
-	 * @description:TODO
+	 * @descriptionTODO
 	 * @param checkFlag
 	 * @param pageNum
 	 * @param pageTotal
 	 * @throws Throwable
 	 * void
 	 * @exception:
-	 * @author: saber
+	 * @author saber
 	 * @time:2017年11月1日下午2:45:24
 	 */
 	private void checkPage(Boolean checkFlag,Integer pageNum,Integer pageTotal) throws Throwable{
@@ -219,7 +219,7 @@ public class PagingPlugin  implements Interceptor{
 	
 	/**
 	 * 修改当前查询的sql
-	 * @description:TODO
+	 * @descriptionTODO
 	 * @param invocation
 	 * @param metaStatementHandler
 	 * @param boundSql
@@ -229,7 +229,7 @@ public class PagingPlugin  implements Interceptor{
 	 * @throws Exception
 	 * Object
 	 * @exception:
-	 * @author: saber
+	 * @author saber
 	 * @time:2017年11月1日下午3:04:22
 	 */
 	private Object changeSql(Invocation invocation,MetaObject metaStatementHandler,

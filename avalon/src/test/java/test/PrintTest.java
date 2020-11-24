@@ -3,7 +3,7 @@ package test;
 import java.util.function.BooleanSupplier;
 
 /**
- *@description:TODO
+ *@descriptionTODO
  *@author saber
  *@date 2017年11月15日 下午7:14:19
  *@version

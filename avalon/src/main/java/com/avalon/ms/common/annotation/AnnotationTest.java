@@ -6,7 +6,7 @@ import java.lang.reflect.Method;
 import com.avalon.ms.common.annotation.spring.InjectTest;
 
 /**
- *@description:TODO
+ *@descriptionTODO
  *@author saber
  *@date 2018年1月18日 上午10:06:10
  *@version

@@ -3,7 +3,7 @@ package com.avalon.ms.multithread;
 import java.math.BigDecimal;
 
 /**
- *@description:TODO
+ *@descriptionTODO
  *@author saber
  *@date 2017年11月22日 下午5:37:29
  *@version

@@ -7,7 +7,7 @@ import org.apache.ibatis.annotations.Select;
 import com.avalon.ms.dao.entity.Student;
 
 /**
- *@description:TODO
+ *@descriptionTODO
  *@author saber
  *@date 2017年10月18日 上午10:39:54
  *@version

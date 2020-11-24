@@ -6,7 +6,7 @@ import java.util.concurrent.locks.ReadWriteLock;
 import org.apache.ibatis.cache.Cache;
 
 /**
- *@description:TODO
+ *@descriptionTODO
  *@author saber
  *@date 2017年10月10日 上午11:06:56
  *@version

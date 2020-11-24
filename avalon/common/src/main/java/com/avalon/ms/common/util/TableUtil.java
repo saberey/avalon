@@ -14,8 +14,8 @@ import java.util.ArrayList;
  * create table by annotation
  *
  * @version 1.0
- * @description:TODO
- * @author: saber
+ * @descriptionTODO
+ * @author saber
  * @time: 2017年7月25日 下午5:27:35
  */
 public class TableUtil {

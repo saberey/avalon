@@ -5,7 +5,7 @@ import org.slf4j.LoggerFactory;
 import redis.clients.jedis.Jedis;
 
 /**
- *@description:TODO
+ *@descriptionTODO
  *@author saber
  *@date 2018年1月11日 下午4:59:40
  *@version
@@ -38,11 +38,11 @@ public class RateLimitUtil {
 					}
 					next = jedis.incr(keyWords);
 					if(next >max){
-						logger.info("key:{},超出{}秒内{}次访问限制，这是第{}次访问",keyWords,timeOut,max,next);
-					}else{
-						result = true;
-					}	
+					logger.info("key:{},超出{}秒内{}次访问限制，这是第{}次访问",keyWords,timeOut,max,next);
+				}else{
+					result = true;
 				}
+			}
 			}
 			
 			if(result){

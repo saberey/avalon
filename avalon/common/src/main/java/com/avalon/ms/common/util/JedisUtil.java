@@ -42,15 +42,15 @@ public class JedisUtil {
          //表示一个对象至少停留在idle状态的最短时间，然后才能被idle object evitor扫描并驱逐；这一项只有在timeBetweenEvictionRunsMillis大于0时才有意义
          config.setMinEvictableIdleTimeMillis(1000);
          //redis如果设置了密码：
-         jedisPool = new JedisPool(config, jedisAddr, jedisPort, jedisTimeout, jedisPwd);
-         //jedisPool = new JedisPool(config, jedisAddr,  6379);
+         //jedisPool = new JedisPool(config, jedisAddr, jedisPort, jedisTimeout, jedisPwd);
+         jedisPool = new JedisPool(config, jedisAddr,  6379);
 	   }
 	 /**
-	  * @description:获取指定的redis 连接对象
+	  * @description获取指定的redis 连接对象
 	  * @param index
 	  * @return Jedis
 	  * @exception:
-	  * @author:saber
+	  * @authorsaber
 	  * @time:2017年7月18日下午2:03:57
 	  */
 	 public static Jedis getJedis(int index) {

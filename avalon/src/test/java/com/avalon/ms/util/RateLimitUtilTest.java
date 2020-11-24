@@ -7,7 +7,7 @@ import org.junit.Test;
 import com.avalon.ms.common.util.RateLimitUtil;
 
 /**
- *@description:TODO
+ *@descriptionTODO
  *@author saber
  *@date 2018年1月11日 下午5:46:12
  *@version

@@ -18,7 +18,7 @@ import com.avalon.ms.common.bean.FileInfoEntity;
 import com.avalon.ms.contants.Constants;
 
 /**
- *@description:TODO
+ *@descriptionTODO
  *@author saber
  *@date 2018年1月26日 下午2:10:14
  *@version

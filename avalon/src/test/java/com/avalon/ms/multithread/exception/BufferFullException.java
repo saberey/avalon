@@ -1,6 +1,6 @@
 package com.avalon.ms.multithread.exception;
 /**
- *@description:TODO
+ *@descriptionTODO
  *@author saber
  *@date 2017年12月21日 下午3:30:23
  *@version

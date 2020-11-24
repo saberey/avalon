@@ -3,7 +3,7 @@ package com.avalon.ms.common.util;
 import java.io.File;
 
 /**
- *@description:TODO
+ *@descriptionTODO
  *@author saber
  *@date 2017年12月14日 下午5:12:13
  *@version

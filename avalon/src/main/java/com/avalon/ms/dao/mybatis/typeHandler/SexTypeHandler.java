@@ -13,7 +13,7 @@ import org.apache.ibatis.type.TypeHandler;
 import com.avalon.ms.dao.mybatis.enums.SexEnums;
 
 /**
- *@description:TODO
+ *@descriptionTODO
  *@author saber
  *@date 2017年10月9日 下午1:17:49
  *@version

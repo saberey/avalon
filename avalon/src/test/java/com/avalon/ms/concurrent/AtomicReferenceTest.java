@@ -3,7 +3,7 @@ package com.avalon.ms.concurrent;
 import java.util.concurrent.atomic.AtomicReference;
 
 /**
- *@description:TODO
+ *@descriptionTODO
  *@author saber
  *@date 2018年2月8日 下午4:13:44
  *@version

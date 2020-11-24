@@ -3,7 +3,7 @@ package com.avalon.ms.multithread.synchronizer;
 import java.util.concurrent.TimeUnit;
 
 /**
- *@description:TODO
+ *@descriptionTODO
  *@author saber
  *@date 2018年1月8日 上午9:41:58
  *@version

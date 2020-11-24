@@ -9,7 +9,7 @@ import redis.clients.jedis.Jedis;
 import com.avalon.ms.common.util.JedisUtil;
 
 /**
- *@description:TODO
+ *@descriptionTODO
  *@author saber
  *@date 2017年12月4日 上午10:34:06
  *@version

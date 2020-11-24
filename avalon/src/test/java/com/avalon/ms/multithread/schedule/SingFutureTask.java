@@ -14,7 +14,7 @@ import java.util.concurrent.TimeUnit;
 import java.util.concurrent.TimeoutException;
 
 /**
- *@description:TODO
+ *@descriptionTODO
  *@author saber
  *@date 2018年2月6日 下午5:47:12
  *@version

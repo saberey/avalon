@@ -5,7 +5,7 @@ import java.util.Date;
 import lombok.Data;
 
 /**
- *@description:TODO
+ *@descriptionTODO
  *@author saber
  *@date 2017年10月31日 下午5:19:09
  *@version

@@ -25,8 +25,8 @@ import org.slf4j.LoggerFactory;
 
 /**
  * HttpClient tools
- * @description:TODO
- * @author: saber
+ * @descriptionTODO
+ * @author saber
  * @time: 2017年8月2日 下午3:45:53
  * @version
  */

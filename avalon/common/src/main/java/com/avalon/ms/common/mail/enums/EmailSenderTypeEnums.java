@@ -1,6 +1,6 @@
 package com.avalon.ms.common.mail.enums;
 /**
- *@description:TODO
+ *@descriptionTODO
  *@author saber
  *@date 2017年11月10日 下午1:39:04
  *@version

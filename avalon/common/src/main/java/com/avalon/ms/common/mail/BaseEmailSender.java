@@ -8,7 +8,7 @@ import com.avalon.ms.common.mail.enums.EmailTypeEnums;
 import java.util.Properties;
 
 /**
- *@description:TODO
+ *@descriptionTODO
  *@author saber
  *@date 2017年11月10日 上午10:22:45
  *@version

@@ -10,7 +10,7 @@ import org.springframework.stereotype.Component;
 import com.avalon.ms.common.annotation.spring.MyInject;
 
 /**
- *@description:TODO
+ *@descriptionTODO
  *@author saber
  *@date 2018年1月9日 上午11:12:50
  *@version

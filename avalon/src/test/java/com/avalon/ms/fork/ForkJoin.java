@@ -3,7 +3,7 @@ package com.avalon.ms.fork;
 import java.util.concurrent.TransferQueue;
 
 /**
- * @description:TODO
+ * @descriptionTODO
  * @author saber
  * @date 2017年9月27日 上午9:59:52
  * @version

@@ -5,8 +5,8 @@ import java.util.Date;
 
 /**
  * column type  and default value
- * @description:TODO
- * @author: saber
+ * @descriptionTODO
+ * @author saber
  * @time: 2017年7月25日 下午5:33:06
  * @version 1.0
  */

@@ -11,7 +11,7 @@ import org.slf4j.LoggerFactory;
 
 
 /**
- *@description:通过创建中间task控制执行任务时限
+ *@description通过创建中间task控制执行任务时限
  *@author saber
  *@date 2018年2月28日 上午9:41:28
  *@version

@@ -6,7 +6,7 @@ import com.avalon.ms.common.bean.MailInfo;
 import java.util.Properties;
 
 /**
- *@description:TODO
+ *@descriptionTODO
  *@author saber
  *@date 2017年11月10日 下午2:16:04
  *@version

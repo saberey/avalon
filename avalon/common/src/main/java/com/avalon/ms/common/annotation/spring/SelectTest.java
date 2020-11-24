@@ -3,7 +3,7 @@ package com.avalon.ms.common.annotation.spring;
 import java.lang.annotation.*;
 
 /**
- *@description:TODO
+ *@descriptionTODO
  *@author saber
  *@date 2018年1月18日 上午10:29:02
  *@version

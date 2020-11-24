@@ -3,7 +3,7 @@ package com.avalon.ms.multithread;
 import java.util.concurrent.TimeUnit;
 
 /**
- *@description:TODO
+ *@descriptionTODO
  *@author saber
  *@date 2017年12月8日 下午12:15:56
  *@version

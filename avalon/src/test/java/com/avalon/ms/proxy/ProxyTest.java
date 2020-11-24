@@ -3,7 +3,7 @@ package com.avalon.ms.proxy;
 import java.lang.reflect.Proxy;
 
 /**
- *@description:TODO
+ *@descriptionTODO
  *@author saber
  *@date 2018年2月6日 下午1:31:42
  *@version

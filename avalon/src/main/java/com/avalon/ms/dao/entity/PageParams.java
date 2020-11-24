@@ -3,7 +3,7 @@ package com.avalon.ms.dao.entity;
 import lombok.Data;
 
 /**
- *@description:TODO
+ *@descriptionTODO
  *@author saber
  *@date 2017年10月31日 下午6:43:18
  *@version

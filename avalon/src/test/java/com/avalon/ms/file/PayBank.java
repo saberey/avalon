@@ -27,7 +27,7 @@ import com.avalon.ms.dao.mybatis.mapper.BhifPayIbankParaInfoMapper;
 import com.avalon.ms.dao.mybatis.mapper.KyBranchbankinfosMapper;
 
 /**
- *@description:TODO
+ *@descriptionTODO
  *@author saber
  *@date 2018年1月18日 下午12:49:04
  *@version

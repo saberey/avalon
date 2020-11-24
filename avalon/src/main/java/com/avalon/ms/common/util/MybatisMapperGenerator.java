@@ -12,8 +12,8 @@ import org.mybatis.generator.internal.DefaultShellCallback;
 /**
  * mybatis 生成器，根据mapperconfig.xml定义内容进行xml及bean的生成
  * 
- * @description:TODO
- * @author: saber
+ * @descriptionTODO
+ * @author saber
  * @time: 2017年10月9日 上午11:04:00
  * @version
  */

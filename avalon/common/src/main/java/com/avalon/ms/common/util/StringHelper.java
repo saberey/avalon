@@ -1,6 +1,6 @@
 package com.avalon.ms.common.util;
 /**
- *@description:TODO
+ *@descriptionTODO
  *@author saber
  *@date 2018年1月29日 上午10:19:28
  *@version

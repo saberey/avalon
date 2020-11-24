@@ -1,6 +1,6 @@
 package com.avalon.ms.contants;
 /**
- *@description:TODO
+ *@descriptionTODO
  *@author saber
  *@date 2018年1月18日 下午1:16:50
  *@version

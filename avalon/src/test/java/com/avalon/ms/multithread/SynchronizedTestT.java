@@ -3,7 +3,7 @@ package com.avalon.ms.multithread;
 import java.util.concurrent.Exchanger;
 
 /**
- *@description:TODO
+ *@descriptionTODO
  *@author saber
  *@date 2018年1月10日 下午2:52:57
  *@version

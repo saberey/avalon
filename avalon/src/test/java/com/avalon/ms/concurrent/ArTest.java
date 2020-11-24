@@ -8,7 +8,7 @@ import java.util.concurrent.CountDownLatch;
 import org.junit.Test;
 
 /**
- *@description:TODO
+ *@descriptionTODO
  *@author saber
  *@date 2018年2月8日 下午4:28:48
  *@version

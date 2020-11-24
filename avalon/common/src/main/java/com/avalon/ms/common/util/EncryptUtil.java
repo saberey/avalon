@@ -5,7 +5,7 @@ import javax.crypto.SecretKey;
 import java.security.MessageDigest;
 
 /**
- *@description:TODO
+ *@descriptionTODO
  *@author saber
  *@date 2018年1月2日 下午6:00:03
  *@version

@@ -7,7 +7,7 @@ import javax.sql.DataSource;
 import org.apache.ibatis.datasource.DataSourceFactory;
 
 /**
- *@description:Mybatis自定义dataSource 
+ *@descriptionMybatis自定义dataSource
  *@author saber
  *@date 2017年10月19日 上午11:10:24
  *@version

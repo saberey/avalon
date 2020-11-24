@@ -3,7 +3,7 @@ package com.avalon.ms.multithread;
 import javax.naming.InsufficientResourcesException;
 
 /**
- *@description:TODO
+ *@descriptionTODO
  *@author saber
  *@date 2017年11月22日 下午5:35:43
  *@version

@@ -14,10 +14,10 @@ import java.io.OutputStream;
 import java.net.URL;
 
 /**
- * @Description:
- * @Author: saberey
- * @Date: 2020/10/19 19:42
- * @Version: 1.0
+ * @description
+ * @author saberey
+ * @date 2020/10/19 19:42
+ * @version 1.0
  */
 public class HttpClientConnection  implements HessianConnection {
 

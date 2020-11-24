@@ -44,7 +44,7 @@ public class RestRquestUtil {
 			e.printStackTrace();
 		}finally{		
 			postMethod.releaseConnection();
-			((SimpleHttpConnectionManager)client.getHttpConnectionManager()).shutdown(); 
+			((SimpleHttpConnectionManager)client.getHttpConnectionManager()).shutdown();
 		}
 		return status;
 	}
@@ -58,7 +58,7 @@ public class RestRquestUtil {
 	public static int getPostStatusByHttps(String url) {
 		int status = 0;
 		HttpClient client = new HttpClient();
-	    Protocol myhttps = new Protocol("https", new SelfSSLProtocolSocketFactory(), 443);   
+	    Protocol myhttps = new Protocol("https", new SelfSSLProtocolSocketFactory(), 443);
 	    Protocol.registerProtocol("https", myhttps); 
 	    
 		PostMethod postMethod = new PostMethod(url);
@@ -177,7 +177,7 @@ public class RestRquestUtil {
 		byte[] responseStream=null;
 		HttpClient client = new HttpClient();
 		if(charSet!=null)
-			client.getParams().setParameter(HttpMethodParams.HTTP_CONTENT_CHARSET, "utf-8");		
+			client.getParams().setParameter(HttpMethodParams.HTTP_CONTENT_CHARSET, "utf-8");
 		Object[] objArray = new Object[2];
 		PostMethod postMethod = new PostMethod(url);
 		postMethod.setRequestBody(data);

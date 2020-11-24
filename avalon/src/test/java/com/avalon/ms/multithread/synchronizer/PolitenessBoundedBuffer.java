@@ -1,6 +1,6 @@
 package com.avalon.ms.multithread.synchronizer;
 /**
- *@description:TODO
+ *@descriptionTODO
  *@author saber
  *@date 2017年12月21日 下午3:55:15
  *@version

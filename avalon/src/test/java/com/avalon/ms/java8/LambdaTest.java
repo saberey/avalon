@@ -3,7 +3,7 @@ package com.avalon.ms.java8;
 import java.util.Arrays;
 
 /**
- *@description:TODO
+ *@descriptionTODO
  *@author saber
  *@date 2017年9月25日 上午9:49:13
  *@version

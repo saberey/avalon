@@ -6,7 +6,7 @@ import com.avalon.ms.common.util.ConfigUtil;
 import java.util.Properties;
 
 /**
- *@description:TODO
+ *@descriptionTODO
  *@author saber
  *@date 2017年11月10日 下午1:45:10
  *@version

@@ -13,7 +13,7 @@ import org.apache.ibatis.type.TypeHandler;
 import com.avalon.ms.dao.mybatis.enums.CityAliasEnums;
 
 /**
- *@description:TODO
+ *@descriptionTODO
  *@author saber
  *@date 2017年10月31日 下午3:09:48
  *@version

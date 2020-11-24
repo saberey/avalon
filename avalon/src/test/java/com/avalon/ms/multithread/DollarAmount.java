@@ -1,6 +1,6 @@
 package com.avalon.ms.multithread;
 /**
- *@description:TODO
+ *@descriptionTODO
  *@author saber
  *@date 2017年11月22日 下午5:37:41
  *@version

@@ -6,7 +6,7 @@ import com.avalon.ms.dao.mybatis.enums.SexEnums;
 import com.avalon.ms.dubbo.demo.DemoService;
 
 /**
- *@description:TODO
+ *@descriptionTODO
  *@author saber
  *@date 2017年12月4日 下午4:23:09
  *@version

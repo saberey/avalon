@@ -3,7 +3,7 @@ package com.avalon.ms.multithread.puzzle;
 import java.util.concurrent.CountDownLatch;
 
 /**
- *@description:TODO
+ *@descriptionTODO
  *@author saber
  *@date 2017年11月17日 下午5:26:26
  *@version

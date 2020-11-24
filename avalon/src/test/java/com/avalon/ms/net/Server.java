@@ -9,7 +9,7 @@ import java.net.Socket;
 import com.avalon.ms.bean.People;
 
 /**
- *@description:TODO
+ *@descriptionTODO
  *@author saber
  *@date 2017年11月24日 下午1:17:52
  *@version

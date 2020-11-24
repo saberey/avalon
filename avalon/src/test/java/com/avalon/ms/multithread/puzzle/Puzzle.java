@@ -3,7 +3,7 @@ package com.avalon.ms.multithread.puzzle;
 import java.util.Set;
 
 /**
- *@description:TODO
+ *@descriptionTODO
  *@author saber
  *@date 2017年11月17日 上午10:51:30
  *@version

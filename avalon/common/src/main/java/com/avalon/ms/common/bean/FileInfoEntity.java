@@ -3,7 +3,7 @@ package com.avalon.ms.common.bean;
 import lombok.Data;
 
 /**
- *@description:TODO
+ *@descriptionTODO
  *@author saber
  *@date 2018年1月29日 上午10:09:30
  *@version

@@ -5,7 +5,7 @@ import java.nio.ByteBuffer;
 import java.nio.channels.FileChannel;
 
 /**
- *@description:TODO
+ *@descriptionTODO
  *@author saber
  *@date 2018年4月9日 下午4:20:14
  *@version

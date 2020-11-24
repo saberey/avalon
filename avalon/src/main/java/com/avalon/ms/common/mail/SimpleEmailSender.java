@@ -18,7 +18,7 @@ import com.avalon.ms.common.bean.MailContact;
 import com.avalon.ms.common.bean.MailInfo;
 
 /**
- *@description:TODO
+ *@descriptionTODO
  *@author saber
  *@date 2017年11月10日 上午10:41:09
  *@version

@@ -8,7 +8,7 @@ import javax.crypto.SecretKey;
 import org.jboss.netty.handler.codec.base64.Base64Encoder;
 
 /**
- *@description:TODO
+ *@descriptionTODO
  *@author saber
  *@date 2018年1月2日 下午6:00:03
  *@version

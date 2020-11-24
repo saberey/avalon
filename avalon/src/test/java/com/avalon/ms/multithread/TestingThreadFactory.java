@@ -3,7 +3,7 @@ package com.avalon.ms.multithread;
 import java.util.concurrent.ThreadFactory;
 
 /**
- *@description:TODO
+ *@descriptionTODO
  *@author saber
  *@date 2017年12月14日 下午5:39:46
  *@version

@@ -5,7 +5,7 @@ import java.io.InputStream;
 import java.net.Socket;
 
 /**
- *@description:TODO
+ *@descriptionTODO
  *@author saber
  *@date 2017年11月14日 下午5:51:26
  *@version
