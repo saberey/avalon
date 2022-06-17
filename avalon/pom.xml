@@ -28,7 +28,7 @@
         <mysql.version>6.0.6</mysql.version>
         <druid.version>1.2.1</druid.version>
         <mybatis.spring.version>2.0.5</mybatis.spring.version>
-        <fastjson.version>1.2.74</fastjson.version>
+        <fastjson.version>1.2.83</fastjson.version>
         <zookeeper.version>3.6.2</zookeeper.version>
         <redisson.version>3.13.6</redisson.version>
         <hessian.version>4.0.38</hessian.version>
