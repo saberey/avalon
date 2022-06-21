@@ -25,7 +25,7 @@
         <spring.data.redis.vserion>2.3.4.RELEASE</spring.data.redis.vserion>
         <mybatis.version>3.5.6</mybatis.version>
         <mybatis.generator.version>1.4.0</mybatis.generator.version>
-        <mysql.version>6.0.6</mysql.version>
+        <mysql.version>8.0.28</mysql.version>
         <druid.version>1.2.1</druid.version>
         <mybatis.spring.version>2.0.5</mybatis.spring.version>
         <fastjson.version>1.2.74</fastjson.version>
